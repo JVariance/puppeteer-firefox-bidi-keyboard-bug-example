@@ -1,0 +1,216 @@
+> tests@1.0.0 test
+> vitest --silent=false --disable-console-intercept=true
+
+The CJS build of Vite's Node API is deprecated. See https://vitejs.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.
+
+ DEV  v1.2.2 C:/Users/jayp/Repositories/puppeteer-firefox-bidi-keyboard-bug-example/tests
+
+ ❯ basic.test.js (1)
+   | extension command on moz-extension page
+ ❯ basic.test.js (1)
+   \ extension command on moz-extension page
+     \ [ beforeEach ]
+ ❯ basic.test.js (1)
+ ❯ basic.test.js (1)
+ ❯ basic.test.js (1)
+   | extension command on moz-extension page
+     | [ beforeEach ]
+WebDriver BiDi listening on ws://127.0.0.1:49898
+1707125569672   RemoteAgent     DEBUG   Setting recommended pref browser.contentblocking.introCount to 99
+1707125569673   RemoteAgent     DEBUG   Setting recommended pref browser.newtabpage.activity-stream.showSponsoredTopSites to false
+1707125569673   RemoteAgent     DEBUG   Setting recommended pref browser.region.network.url to
+1707125569673   RemoteAgent     DEBUG   Setting recommended pref browser.startup.couldRestoreSession.count to -1
+1707125569673   RemoteAgent     DEBUG   Setting recommended pref browser.tabs.closeWindowWithLastTab to false
+1707125569673   RemoteAgent     DEBUG   Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1707125569673   RemoteAgent     DEBUG   Setting recommended pref browser.tabs.warnOnClose to false
+1707125569673   RemoteAgent     DEBUG   Setting recommended pref browser.toolbars.bookmarks.visibility to never
+1707125569673   RemoteAgent     DEBUG   Setting recommended pref browser.topsites.contile.enabled to false
+1707125569673   RemoteAgent     DEBUG   Setting recommended pref browser.urlbar.merino.endpointURL to
+1707125569673   RemoteAgent     DEBUG   Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1707125569674   RemoteAgent     DEBUG   Setting recommended pref dom.max_chrome_script_run_time to 0
+1707125569674   RemoteAgent     DEBUG   Setting recommended pref dom.navigation.locationChangeRateLimit.count to 0
+1707125569674   RemoteAgent     DEBUG   Setting recommended pref dom.push.connection.enabled to false
+1707125569674   RemoteAgent     DEBUG   Setting recommended pref dom.screenorientation.allow-lock to true
+1707125569674   RemoteAgent     DEBUG   Setting recommended pref dom.successive_dialog_time_limit to 0
+1707125569674   RemoteAgent     DEBUG   Setting recommended pref extensions.getAddons.discovery.api_url to data:,
+1707125569674   RemoteAgent     DEBUG   Setting recommended pref extensions.blocklist.detailsURL to http://%(server)s/extensions-dummy/blocklistDetailsURL
+1707125569674   RemoteAgent     DEBUG   Setting recommended pref extensions.blocklist.itemURL to http://%(server)s/extensions-dummy/blocklistItemURL
+1707125569674   RemoteAgent     DEBUG   Setting recommended pref extensions.hotfix.url to http://%(server)s/extensions-dummy/hotfixURL
+1707125569674   RemoteAgent     DEBUG   Setting recommended pref extensions.systemAddon.update.url to http://%(server)s/dummy-system-addons.xml
+1707125569674   RemoteAgent     DEBUG   Setting recommended pref extensions.update.background.url to http://%(server)s/extensions-dummy/updateBackgroundURL
+1707125569674   RemoteAgent     DEBUG   Setting recommended pref extensions.update.url to http://%(server)s/extensions-dummy/updateURL
+1707125569674   RemoteAgent     DEBUG   Setting recommended pref extensions.getAddons.get.url to http://%(server)s/extensions-dummy/repositoryGetURL
+1707125569675   RemoteAgent     DEBUG   Setting recommended pref extensions.getAddons.search.browseURL to http://%(server)s/extensions-dummy/repositoryBrowseURL
+1707125569675   RemoteAgent     DEBUG   Setting recommended pref geo.provider.network.url to
+1707125569675   RemoteAgent     DEBUG   Setting recommended pref identity.fxaccounts.auth.uri to https://{server}/dummy/fxa
+1707125569675   RemoteAgent     DEBUG   Setting recommended pref network.http.prompt-temp-redirect to false
+1707125569675   RemoteAgent     DEBUG   Setting recommended pref privacy.trackingprotection.enabled to false
+1707125569675   RemoteAgent     DEBUG   Setting recommended pref security.remote_settings.intermediates.enabled to false
+1707125569675   RemoteAgent     DEBUG   Setting recommended pref startup.homepage_welcome_url.additional to
+ ❯ basic.test.js (1)
+   / extension command on moz-extension page
+     / [ beforeEach ]
+console.error: (new SyntaxError("XMLHttpRequest.open: '/buckets/monitor/collections/changes/changeset?collection=anti-tracking-url-decoration&bucket=main&_expected=0' is not a valid URL.", (void 0), 133))
+ ❯ basic.test.js (1)
+ ❯ basic.test.js (1)
+   \ extension command on moz-extension page
+     \ [ beforeEach ]
+ ❯ basic.test.js (1)
+ ❯ basic.test.js (1)
+ ❯ basic.test.js (1)
+   / extension command on moz-extension page
+     / [ beforeEach ]
+ ❯ basic.test.js (1)
+ ❯ basic.test.js (1)
+   | extension command on moz-extension page
+     | [ beforeEach ]
+ ❯ basic.test.js (1)
+   / extension command on moz-extension page
+     / [ beforeEach ]
+1707125571822   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb -> {"method":"Target.setDiscoverTargets","params":{"discover":true,"filter":[{}]},"id":1}
+1707125571823   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"3fd2119a-26d5-471a-b8bd-e3bacc3edd75","type":"page","title":"","url":"about:blank","attached":false,"browserContextId":null}}}
+ ❯ basic.test.js (1)
+   | extension command on moz-extension page
+ ❯ basic.test.js (1)
+   / extension command on moz-extension page
+ ❯ basic.test.js (1)
+   - extension command on moz-extension page
+1707125571940   RemoteAgent     TRACE   Received DOM event TabSelect for [object XULElement]
+1707125571947   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"id":2,"result":{"targetId":"27fe19f7-a076-4c0f-aac1-6e794f5c6355"}}
+1707125571951   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb -> {"method":"Target.attachToTarget","params":{"targetId":"27fe19f7-a076-4c0f-aac1-6e794f5c6355","flatten":true},"id":3}
+1707125571952   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Target.attachedToTarget","params":{"targetInfo":{"targetId":"27fe19f7-a076-4c0f-aac1-6e794f5c6355","type ❯ basic.test.js (1)
+   \ extension command on moz-extension page
+1707125571965   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb -> {"method":"Network.enable","id":1,"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+1707125571968   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"id":1,"result":{},"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+1707125571968   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Target.receivedMessageFromTarget","params":{"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd","message":"{\"id\":1,\"result\":{}}"}}
+1707125571969   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb -> {"method":"Network.setCacheDisabled","params":{"cacheDisabled":false},"id":2,"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+1707125571969   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb -> {"method":"Fetch.disable","id":3,"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+1707125571969   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"id":3,"result":{},"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+1707125571970   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Target.receivedMessageFromTarget","params":{"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd","message" ❯ basic.test.js (1)
+   | extension command on moz-extension page
+1707125571975   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb -> {"method":"Page.getFrameTree","id":5,"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+1707125571975   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb -> {"method":"Page.setLifecycleEventsEnabled","params":{"enabled":true},"id":6,"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+1707125571976   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb -> {"method":"Runtime.enable","id":7,"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+ ❯ basic.test.js (1)
+   / extension command on moz-extension page
+1707125572016   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"id":2,"result":{},"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+ ❯ basic.test.js (1)
+   - extension command on moz-extension page
+1707125572016   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"id":4,"result":{},"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+1707125572017   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Target.receivedMessageFromTarget","params":{"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd","message":"{\"id\":4,\"result\":{}}"}}
+1707125572017   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"id":5,"result":{"frameTree":{"frame":{"id":"13","url":"about:blank","securityOrigin":null,"mimeType":null}}},"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+1707125572017   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Target.receivedMessageFromTarget","params":{"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd","message":"{\"id\":5,\"result\":{\"frameTree\":{\"frame\":{\"id\":\"13\",\"url\":\"about:blank\",\"securityOrigin\":null,\"mimeType\":null}}}}"}}
+1707125572017   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"id":6,"result":{},"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+1707125572017   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Target.receivedMessageFromTarget","params":{"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd","message":"{\"id\":6,\"result\":{}}"}}
+1707125572030   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"id":7,"result":{},"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+1707125572030   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Target.receivedMessageFromTarget","params":{"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd","message":"{\"id\":7,\"result\":{}}"}}
+1707125572031   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"id":8,"result":{},"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+1707125572031   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Target.receivedMessageFromTarget","params":{"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd","message":"{\"id\":8,\"result\":{}}"}}
+1707125572031   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"id":9,"result":{},"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+ ❯ basic.test.js (1)
+   \ extension command on moz-extension page
+1707125572033   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"null","name":"","auxData":{"isDefault":true,"frameId":"13","type":"default"}}},"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+1707125572033   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Target.receivedMessageFromTarget","params":{"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd","message":"{\"method\":\"Runtime.executionContextCreated\",\"params\":{\"context\":{\"id\":1,\"origin\":\"null\",\"name\":\"\",\"auxData\":{\"isDefault\":true,\"frameId\":\"13\",\"type\":\"default\"}}}}"}}
+1707125572033   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Page.frameStartedLoading","params":{"frameId":"13"},"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+1707125572033   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Target.receivedMessageFromTarget","params":{"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd","message":"{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"13\"}}"}}
+1707125572034   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Page.lifecycleEvent","params":{"frameId":"13","name":"init","timestamp":1707125572.022},"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+1707125572034   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Target.receivedMessageFromTarget","params":{"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd","message":"{\"method\":\"Page.lifecycleEvent\",\"params\":{\"frameId\":\"13\",\"name\":\"init\",\"timestamp\":1707125572.022}}"}}
+1707125572034   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Runtime.executionContextDestroyed","params":{"executionContextId":1},"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+1707125572035   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Target.receivedMessageFromTarget","params":{"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd","message":"{\"method\":\"Runtime.executionContextDestroyed\",\"params\":{\"executionContextId\":1}}"}}
+1707125572035   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Runtime.executionContextsCleared","params":{},"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+1707125572035   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Target.receivedMessageFromTarget","params":{"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd","message":"{\"method\":\"Runtime.executionContextsCleared\",\"params\":{}}"}}
+1707125572041   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Page.frameNavigated","params":{"frame":{"id":"13","url":"about:blank","securityOrigin":null,"mimeType":null}},"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+1707125572041   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Target.receivedMessageFromTarget","params":{"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd","message":"{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"id\":\"13\",\"url\":\"about:blank\",\"securityOrigin\":null,\"mimeType\":null}}}"}}
+1707125572042   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Runtime.executionContextCreated","params":{"context":{"id":2,"origin":"null","name":"","auxData":{"isDefault":true,"frameId":"13","type":"default"}}},"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+1707125572042   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Target.receivedMessageFromTarget","params":{"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd","message":"{\"method\":\"Runtime.executionContextCreated\",\"params\":{\"context\":{\"id\":2,\"origin\":\"null\",\"name\":\"\",\"auxData\":{\"isDefault\":true,\"frameId\":\"13\",\"type\":\"default\"}}}}"}}
+1707125572042   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb -> {"method":"Page.addScriptToEvaluateOnNewDocument","params":{"source":"//# sourceURL=pptr:internal","worldName":"__puppeteer_utility_world__"},"id":10,"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+1707125572046   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Page.domContentEventFired","params":{"timestamp":1707125572.032},"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+1707125572046   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Target.receivedMessageFromTarget","params":{"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd","message":"{\"method\":\"Page.domContentEventFired\",\"params\":{\"timestamp\":1707125572.032}}"}}
+1707125572046   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Page.lifecycleEvent","params":{"frameId":"13","name":"DOMContentLoaded","timestamp":1707125572.032},"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+1707125572046   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Target.receivedMessageFromTarget","params":{"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd","message":"{\"method\":\"Page.lifecycleEvent\",\"params\":{\"frameId\":\"13\",\"name\":\"DOMContentLoaded\",\"timestamp\":1707125572.032}}"}}
+1707125572047   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Page.loadEventFired","params":{"timestamp":1707125572.033},"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+1707125572047   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Target.receivedMessageFromTarget","params":{"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd","message":"{\"method\":\"Page.loadEventFired\",\"params\":{\"timestamp\":1707125572.033}}"}}
+1707125572047   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Page.lifecycleEvent","params":{"frameId":"13","name":"load","timestamp":1707125572.033},"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+1707125572047   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Target.receivedMessageFromTarget","params":{"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd","message":"{\"method\":\"Page.lifecycleEvent\",\"params\":{\"frameId\":\"13\",\"name\":\"load\",\"timestamp\":1707125572.033}}"}}
+1707125572047   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Page.frameStoppedLoading","params":{"frameId":"13"},"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+1707125572047   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Target.receivedMessageFromTarget","params":{"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd","message":"{\"method\":\"Page.frameStoppedLoading\",\"params\":{\"frameId\":\"13\"}}"}}
+ ❯ basic.test.js (1)
+   | extension command on moz-extension page
+1707125572051   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Target.receivedMessageFromTarget","params":{"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd","message":"{\"id\":10,\"result\":{\"identifier\":\"d6cc9512-b5ce-466e-b9f3-a111c811bc9b\"}}"}}
+1707125572058   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb -> {"method":"Page.createIsolatedWorld","params":{"frameId":"13","worldName":"__puppeteer_utility_world__","grantUniveralAccess":true},"id":11,"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+1707125572059   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Runtime.executionContextCreated","params":{"context":{"id":3,"origin":"null","name":"__puppeteer_utility_world__","auxData":{"isDefault":false,"frameId":"13","type":"isolated"}}},"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+1707125572059   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Target.receivedMessageFromTarget","params":{"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd","message":"{\"method\":\"Runtime.executionContextCreated\",\"params\":{\"context\":{\"id\":3,\"origin\":\"null\",\"name\":\"__puppeteer_utility_world__\",\"auxData\":{\"isDefault\":false,\"frameId\":\"13\",\"type\":\"isolated\"}}}}"}}
+1707125572060   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"id":11,"result":{"executionContextId":3},"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+1707125572060   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Target.receivedMessageFromTarget","params":{"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd","message":"{\"id\":11,\"result\":{\"executionContextId\":3}}"}}
+1707125572062   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb -> {"method":"Emulation.setDeviceMetricsOverride","params":{"mobile":false,"width":800,"height":600,"deviceScaleFactor":1,"screenOrientation":{"angle":0,"type":"portraitPrimary"}},"id":12,"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+1707125572063   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb -> {"method":"Emulation.setTouchEmulationEnabled","params":{"enabled":false},"id":13,"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+1707125572063   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"id":13,"result":{},"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+ ❯ basic.test.js (1)
+   / extension command on moz-extension page
+1707125572087   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"id":12,"result":{},"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+1707125572087   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Target.receivedMessageFromTarget","params":{"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd","message":"{\"id\":12,\"result\":{}}"}}
+1707125572090   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb -> {"method":"Page.navigate","params":{"url":"moz-extension://eb7c9a05-56f8-47bf-9c14-2c7da7529a02/pages/sidebar.html","frameId":"13"},"id":14,"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+1707125572091   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"id":14,"result":{"frameId":"13","loaderId":"1961a961-95e9-4159-bfd6-ab1dbcaed174"},"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd"}
+1707125572092   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Target.receivedMessageFromTarget","params":{"sessionId":"e99fc914-57eb-4aab-b55d-1c915ad1b7dd","message" ❯ basic.test.js (1)
+ ❯ basic.test.js (1)
+   - extension command on moz-extension page
+JavaScript warning: resource://gre/modules/UpdateService.sys.mjs, line 3858: unreachable code after return statement
+ ❯ basic.test.js (1)
+ ❯ basic.test.js (1)
+   × extension command on moz-extension page
+     | [ afterEach ]
+ ❯ basic.test.js (1)
+   × extension command on moz-extension page
+ ❯ basic.test.js (1)
+   × extension command on moz-extension page
+     - [ afterEach ]
+1707125602433   RemoteAgent     DEBUG   Resetting recommended pref browser.region.network.url
+1707125602433   RemoteAgent     DEBUG   Resetting recommended pref browser.startup.couldRestoreSession.count
+1707125602434   RemoteAgent     DEBUG   Resetting recommended pref browser.tabs.closeWindowWithLastTab
+1707125602434   RemoteAgent     DEBUG   Resetting recommended pref browser.tabs.unloadOnLowMemory
+1707125602434   RemoteAgent     DEBUG   Resetting recommended pref browser.tabs.warnOnClose
+1707125602434   RemoteAgent     DEBUG   Resetting recommended pref browser.toolbars.bookmarks.visibility
+1707125602434   RemoteAgent     DEBUG   Resetting recommended pref browser.topsites.contile.enabled
+1707125602435   RemoteAgent     DEBUG   Resetting recommended pref browser.urlbar.merino.endpointURL
+1707125602437   RemoteAgent     DEBUG   Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1707125602437   RemoteAgent     DEBUG   Resetting recommended pref dom.max_chrome_script_run_time
+1707125602437   RemoteAgent     DEBUG   Resetting recommended pref dom.navigation.locationChangeRateLimit.count
+1707125602437   RemoteAgent     DEBUG   Resetting recommended pref dom.push.connection.enabled
+1707125602438   RemoteAgent     DEBUG   Resetting recommended pref dom.screenorientation.allow-lock
+1707125602438   RemoteAgent     DEBUG   Resetting recommended pref dom.successive_dialog_time_limit
+1707125602438   RemoteAgent     DEBUG   Resetting recommended pref extensions.getAddons.discovery.api_url
+1707125602438   RemoteAgent     DEBUG   Resetting recommended pref extensions.blocklist.detailsURL
+1707125602438   RemoteAgent     DEBUG   Resetting recommended pref extensions.blocklist.itemURL
+1707125602438   RemoteAgent     DEBUG   Resetting recommended pref extensions.hotfix.url
+1707125602438   RemoteAgent     DEBUG   Resetting recommended pref extensions.systemAddon.update.url
+1707125602438   RemoteAgent     DEBUG   Resetting recommended pref extensions.update.background.url
+1707125602439   RemoteAgent     DEBUG   Resetting recommended pref extensions.update.url
+1707125602440   RemoteAgent     DEBUG   Resetting recommended pref extensions.getAddons.get.url
+1707125602440   RemoteAgent     DEBUG   Resetting recommended pref extensions.getAddons.search.browseURL
+1707125602440   RemoteAgent     DEBUG   Resetting recommended pref geo.provider.network.url
+1707125602440   RemoteAgent     DEBUG   Resetting recommended pref identity.fxaccounts.auth.uri
+1707125602441   RemoteAgent     DEBUG   Resetting recommended pref network.http.prompt-temp-redirect
+1707125602441   RemoteAgent     DEBUG   Resetting recommended pref privacy.trackingprotection.enabled
+1707125602441   RemoteAgent     DEBUG   Resetting recommended pref security.remote_settings.intermediates.enabled
+Dynamically enable window occlusion 1
+1707125602441   RemoteAgent     DEBUG   Resetting recommended pref startup.homepage_welcome_url.additional
+1707125602441   RemoteAgent     DEBUG   Resetting recommended pref widget.windows.window_occlusion_tracking.enabled
+ ❯ basic.test.js (1)
+   × extension command on moz-extension page
+     \ [ afterEach ]
+1707125602457   RemoteAgent     DEBUG   CDPConnection cdad3baf-78bf-44df-934f-9efeb85f26eb <- {"method":"Target.targetDestroyed","params":{"targetId":"6147847a-8acb-4fdd-b516-e72fcc60937b"}}
+1707125602457   RemoteAgent     DEBUG   Resetting recommended pref browser.contentblocking.features.standard
+ ❯ basic.test.js (1) 33626ms
+   × extension command on moz-extension page 33625ms
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  basic.test.js > extension command on moz-extension page
+Error: Test timed out in 30000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+ Test Files  1 failed (1)
+      Tests  1 failed (1)
+   Start at  10:32:45
+   Duration  36.81s (transform 1.01s, setup 2.04s, collect 9ms, tests 33.63s, environment 744ms, prepare 166ms)

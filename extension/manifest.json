@@ -1,0 +1,32 @@
+{
+	"manifest_version": 2,
+	"name": "Test",
+	"version": "0.0.1",
+	"description": "Test",
+	"permissions": ["commands", "tabs"],
+	"commands": {
+		"test": {
+			"suggested_key": {
+				"default": "Ctrl+Alt+D"
+			},
+			"description": "Updates second tab to duckduckgo"
+		}
+	},
+	"sidebar_action": {
+		"default_panel": "pages/sidebar.html",
+		"default_title": "Test",
+		"open_at_install": true
+	},
+	"browser_action": {
+		"default_popup": "pages/popup.html",
+		"default_title": "Test"
+	},
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "{135b428e-7517-41c0-9c7e-a0fee98f2b9e}"
+		}
+	},
+	"background": {
+		"scripts": ["background.js"]
+	}
+}

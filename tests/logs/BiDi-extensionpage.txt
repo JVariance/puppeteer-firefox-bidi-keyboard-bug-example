@@ -1,0 +1,712 @@
+> tests@1.0.0 test
+> vitest --silent=false --disable-console-intercept=true
+
+The CJS build of Vite's Node API is deprecated. See https://vitejs.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.
+
+ DEV  v1.2.2 C:/Users/jayp/Repositories/puppeteer-firefox-bidi-keyboard-bug-example/tests
+
+ ❯ basic.test.js (1)
+   | extension command on moz-extension page
+ ❯ basic.test.js (1)
+   - extension command on moz-extension page
+     - [ beforeEach ]
+ ❯ basic.test.js (1)
+ ❯ basic.test.js (1)
+ ❯ basic.test.js (1)
+   \ extension command on moz-extension page
+     \ [ beforeEach ]
+WebDriver BiDi listening on ws://127.0.0.1:49877
+1707125488770   RemoteAgent     DEBUG   Setting recommended pref browser.contentblocking.introCount to 99
+1707125488770   RemoteAgent     DEBUG   Setting recommended pref browser.newtabpage.activity-stream.showSponsoredTopSites to false
+1707125488770   RemoteAgent     DEBUG   Setting recommended pref browser.region.network.url to
+1707125488770   RemoteAgent     DEBUG   Setting recommended pref browser.startup.couldRestoreSession.count to -1
+1707125488770   RemoteAgent     DEBUG   Setting recommended pref browser.tabs.closeWindowWithLastTab to false
+1707125488771   RemoteAgent     DEBUG   Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1707125488771   RemoteAgent     DEBUG   Setting recommended pref browser.tabs.warnOnClose to false
+1707125488771   RemoteAgent     DEBUG   Setting recommended pref browser.toolbars.bookmarks.visibility to never
+1707125488771   RemoteAgent     DEBUG   Setting recommended pref browser.topsites.contile.enabled to false
+1707125488771   RemoteAgent     DEBUG   Setting recommended pref browser.urlbar.merino.endpointURL to
+1707125488771   RemoteAgent     DEBUG   Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1707125488771   RemoteAgent     DEBUG   Setting recommended pref dom.max_chrome_script_run_time to 0
+1707125488771   RemoteAgent     DEBUG   Setting recommended pref dom.navigation.locationChangeRateLimit.count to 0
+1707125488771   RemoteAgent     DEBUG   Setting recommended pref dom.push.connection.enabled to false
+1707125488771   RemoteAgent     DEBUG   Setting recommended pref dom.screenorientation.allow-lock to true
+1707125488771   RemoteAgent     DEBUG   Setting recommended pref dom.successive_dialog_time_limit to 0
+1707125488771   RemoteAgent     DEBUG   Setting recommended pref extensions.getAddons.discovery.api_url to data:,
+1707125488771   RemoteAgent     DEBUG   Setting recommended pref extensions.blocklist.detailsURL to http://%(server)s/extensions-dummy/blocklistDetailsURL
+1707125488772   RemoteAgent     DEBUG   Setting recommended pref extensions.blocklist.itemURL to http://%(server)s/extensions-dummy/blocklistItemURL
+1707125488772   RemoteAgent     DEBUG   Setting recommended pref extensions.hotfix.url to http://%(server)s/extensions-dummy/hotfixURL
+1707125488772   RemoteAgent     DEBUG   Setting recommended pref extensions.systemAddon.update.url to http://%(server)s/dummy-system-addons.xml
+1707125488772   RemoteAgent     DEBUG   Setting recommended pref extensions.update.background.url to http://%(server)s/extensions-dummy/updateBackgroundURL
+1707125488772   RemoteAgent     DEBUG   Setting recommended pref extensions.update.url to http://%(server)s/extensions-dummy/updateURL
+1707125488772   RemoteAgent     DEBUG   Setting recommended pref extensions.getAddons.get.url to http://%(server)s/extensions-dummy/repositoryGetURL
+1707125488772   RemoteAgent     DEBUG   Setting recommended pref extensions.getAddons.search.browseURL to http://%(server)s/extensions-dummy/repositoryBrowseURL
+1707125488772   RemoteAgent     DEBUG   Setting recommended pref geo.provider.network.url to
+1707125488772   RemoteAgent     DEBUG   Setting recommended pref identity.fxaccounts.auth.uri to https://{server}/dummy/fxa
+1707125488772   RemoteAgent     DEBUG   Setting recommended pref network.http.prompt-temp-redirect to false
+1707125488772   RemoteAgent     DEBUG   Setting recommended pref privacy.trackingprotection.enabled to false
+1707125488772   RemoteAgent     DEBUG   Setting recommended pref security.remote_settings.intermediates.enabled to false
+1707125488773   RemoteAgent     DEBUG   Setting recommended pref startup.homepage_welcome_url.additional to
+ ❯ basic.test.js (1)
+ ❯ basic.test.js (1)
+ ❯ basic.test.js (1)
+   | extension command on moz-extension page
+     | [ beforeEach ]
+console.error: (new SyntaxError("XMLHttpRequest.open: '/buckets/monitor/collections/changes/changeset?collection=anti-tracking-url-decoration&bucket=main&_expected=0' is not a valid URL.", (void 0), 133))
+ ❯ basic.test.js (1)
+   \ extension command on moz-extension page
+ ❯ basic.test.js (1)
+   | extension command on moz-extension page
+     | [ beforeEach ]
+ ❯ basic.test.js (1)
+ ❯ basic.test.js (1)
+   | extension command on moz-extension page
+ ❯ basic.test.js (1)
+ ❯ basic.test.js (1)
+ ❯ basic.test.js (1)
+   / extension command on moz-extension page
+     / [ beforeEach ]
+ ❯ basic.test.js (1)
+ ❯ basic.test.js (1)
+   - extension command on moz-extension page
+     - [ beforeEach ]
+1707125490878   WebDriver BiDi  DEBUG   Registered session handler: /session/49697301-467c-4b9c-a7b4-72bb2b6df35b
+1707125490878   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":1,"result":{"sessionId":"49697301-467c-4b9c-a7b4-72bb2b6df35b","capabilities":{"browserName":"firefox","browserVersion":"121.0","platformName":"windows","acceptInsecureCerts":false,"proxy":{},"setWindowRect":true,"moz:accessibilityChecks":false,"moz:buildID":"20240105132005","moz:headless":false,"moz:platformVersion":"10.0","moz:processID":29508,"moz:profile":"C:\\Users\\jayp\\AppData\\Local\\Temp\\puppeteer_dev_firefox_profile-hpU1SP","moz:shutdownTimeout":60000,"moz:windowless":false}}}
+DevTools listening on ws://127.0.0.1:49877/devtools/browser/772b7ec5-5224-41d0-8e62-bfc85bf09168
+ ❯ basic.test.js (1)
+   \ extension command on moz-extension page
+     \ [ beforeEach ]
+1707125490894   RemoteAgent     TRACE   Module root/browsingContext.sys.mjs found for ROOT
+1707125490894   RemoteAgent     TRACE   Received command browsingContext.getTree for destination ROOT
+1707125490894   RemoteAgent     TRACE   Module root/browsingContext.sys.mjs found for ROOT
+1707125490894   RemoteAgent     TRACE   Module root/browsingContext.sys.mjs found for ROOT
+1707125490896   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":2,"result":{"contexts":[{"context":"be0a2c98-4fed-41e4-af99-a590a3a5d1a2","url":"about:blank","children":[],"parent":null}]}}
+1707125490898   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":3,"method":"session.subscribe","params":{"events":["browsingContext","network","log","script"]}}
+1707125490899   RemoteAgent     TRACE   Module root/session.sys.mjs found for ROOT
+1707125490899   RemoteAgent     TRACE   Received command session.subscribe for destination ROOT
+1707125490899   RemoteAgent     TRACE   Module root/session.sys.mjs found for ROOT
+1707125490899   RemoteAgent     TRACE   Module root/session.sys.mjs found for ROOT
+1707125490899   RemoteAgent     TRACE   Module root/browsingContext.sys.mjs found for ROOT
+1707125490900   RemoteAgent     TRACE   Module root/network.sys.mjs found for ROOT
+1707125490900   RemoteAgent     TRACE   Module root/log.sys.mjs found for ROOT
+1707125490901   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125490904   RemoteAgent     TRACE   Module windowglobal-in-root/browsingContext.sys.mjs found for WINDOW_GLOBAL
+1707125490905   RemoteAgent     TRACE   Module windowglobal/browsingContext.sys.mjs found for WINDOW_GLOBAL
+1707125490905   RemoteAgent     TRACE   Received command browsingContext._applySessionData for destination WINDOW_GLOBAL
+1707125490905   RemoteAgent     TRACE   Module windowglobal-in-root/browsingContext.sys.mjs found for WINDOW_GLOBAL
+1707125490905   RemoteAgent     TRACE   Module windowglobal/browsingContext.sys.mjs found for WINDOW_GLOBAL
+1707125490905   RemoteAgent     TRACE   Module windowglobal-in-root/browsingContext.sys.mjs found for WINDOW_GLOBAL
+ ❯ basic.test.js (1)
+   | extension command on moz-extension page
+     | [ beforeEach ]
+1707125490906   RemoteAgent     TRACE   Module windowglobal-in-root/network.sys.mjs not found for WINDOW_GLOBAL
+1707125490906   RemoteAgent     TRACE   Module windowglobal/network.sys.mjs not found for WINDOW_GLOBAL
+1707125490906   RemoteAgent     TRACE   Module root/network.sys.mjs found for ROOT
+1707125490906   RemoteAgent     TRACE   Received command network._applySessionData for destination ROOT
+1707125490906   RemoteAgent     TRACE   Module root/network.sys.mjs found for ROOT
+1707125490906   RemoteAgent     TRACE   Module root/network.sys.mjs found for ROOT
+1707125490910   RemoteAgent     TRACE   Module windowglobal-in-root/log.sys.mjs found for WINDOW_GLOBAL
+1707125490911   RemoteAgent     TRACE   Module windowglobal/log.sys.mjs found for WINDOW_GLOBAL
+1707125490911   RemoteAgent     TRACE   Received command log._applySessionData for destination WINDOW_GLOBAL
+1707125490911   RemoteAgent     TRACE   Module windowglobal-in-root/log.sys.mjs found for WINDOW_GLOBAL
+1707125490911   RemoteAgent     TRACE   Module windowglobal/log.sys.mjs found for WINDOW_GLOBAL
+1707125490911   RemoteAgent     TRACE   Module windowglobal-in-root/log.sys.mjs found for WINDOW_GLOBAL
+1707125490911   RemoteAgent     TRACE   Module root/log.sys.mjs found for ROOT
+1707125490911   RemoteAgent     TRACE   Module windowglobal-in-root/script.sys.mjs found for WINDOW_GLOBAL
+1707125490912   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125490912   RemoteAgent     TRACE   Received command script._applySessionData for destination WINDOW_GLOBAL
+1707125490912   RemoteAgent     TRACE   Created MessageHandler WINDOW_GLOBAL for session 49697301-467c-4b9c-a7b4-72bb2b6df35b
+1707125490912   RemoteAgent     TRACE   Module windowglobal-in-root/script.sys.mjs found for WINDOW_GLOBAL
+1707125490912   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125490912   RemoteAgent     TRACE   Module windowglobal-in-root/script.sys.mjs found for WINDOW_GLOBAL
+1707125490912   RemoteAgent     TRACE   Received command browsingContext._applySessionData for destination WINDOW_GLOBAL
+1707125490912   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125490913   RemoteAgent     TRACE   Received command script._applySessionData for destination ROOT
+1707125490913   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125490913   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125490913   RemoteAgent     TRACE   Module windowglobal-in-root/realm-created.sys.mjs not found for WINDOW_GLOBAL
+1707125490913   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"event","method":"script.realmCreated","params":{"realm":"92bd05f2-4a02-4aea-bdd9-d1a411dd3ce1","origin":"null","context":"be0a2c98-4fed-41e4-af99-a590a3a5d1a2","type":"window"}}
+1707125490914   RemoteAgent     TRACE   Module windowglobal/browsingContext.sys.mjs found for WINDOW_GLOBAL
+1707125490914   RemoteAgent     TRACE   Module windowglobal-in-root/window-global-handler-created.sys.mjs not found for WINDOW_GLOBAL
+1707125490914   RemoteAgent     TRACE   Module windowglobal/browsingContext.sys.mjs found for WINDOW_GLOBAL
+1707125490915   RemoteAgent     TRACE   Received command log._applySessionData for destination WINDOW_GLOBAL
+1707125490915   RemoteAgent     TRACE   Module windowglobal/log.sys.mjs found for WINDOW_GLOBAL
+1707125490916   RemoteAgent     TRACE   Module windowglobal/log.sys.mjs found for WINDOW_GLOBAL
+1707125490917   RemoteAgent     TRACE   Received command script._applySessionData for destination WINDOW_GLOBAL
+1707125490917   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125490918   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125490918   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":3,"result":{}}
+1707125490920   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":4,"method":"browsingContext.getTree","params":{}}
+1707125490920   RemoteAgent     TRACE   Module root/browsingContext.sys.mjs found for ROOT
+1707125490920   RemoteAgent     TRACE   Received command browsingContext.getTree for destination ROOT
+ ❯ basic.test.js (1)
+   - extension command on moz-extension page
+ ❯ basic.test.js (1)
+ ❯ basic.test.js (1)
+   | extension command on moz-extension page
+     | [ beforeEach ]
+1707125490998   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":5,"method":"browsingContext.create","params":{"type":"tab"}}
+ ❯ basic.test.js (1)
+   / extension command on moz-extension page
+1707125491017   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"event","method":"browsingContext.contextCreated","params":{"context":"c421f436-37d5-47c8-8668-7c ❯ basic.test.js (1)
+   - extension command on moz-extension page
+ ❯ basic.test.js (1)
+   | extension command on moz-extension page
+1707125491105   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"event","method":"script.realmCreated","params":{"realm":"4961a022-ed16-4ff0-910f-3b04749a0fd8","origin":"null","context":"c421f436-37d5-47c8-8668-7c08dfd2f982","type":"window"}}
+1707125491107   RemoteAgent     TRACE   Module windowglobal/browsingContext.sys.mjs found for WINDOW_GLOBAL
+1707125491107   RemoteAgent     TRACE   Module windowglobal/network.sys.mjs not found for WINDOW_GLOBAL
+1707125491107   RemoteAgent     TRACE   Module windowglobal/network.sys.mjs not found for WINDOW_GLOBAL
+1707125491107   RemoteAgent     TRACE   Module windowglobal/network.sys.mjs not found for WINDOW_GLOBAL
+1707125491108   RemoteAgent     TRACE   Module windowglobal/log.sys.mjs found for WINDOW_GLOBAL
+1707125491109   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125491109   RemoteAgent     TRACE   Received command browsingContext._applySessionData for destination WINDOW_GLOBAL
+1707125491109   RemoteAgent     TRACE   Module windowglobal/browsingContext.sys.mjs found for WINDOW_GLOBAL
+1707125491109   RemoteAgent     TRACE   Module windowglobal/browsingContext.sys.mjs found for WINDOW_GLOBAL
+1707125491110   RemoteAgent     TRACE   Received command log._applySessionData for destination WINDOW_GLOBAL
+1707125491110   RemoteAgent     TRACE   Module windowglobal/log.sys.mjs found for WINDOW_GLOBAL
+1707125491110   RemoteAgent     TRACE   Module windowglobal/log.sys.mjs found for WINDOW_GLOBAL
+1707125491112   RemoteAgent     TRACE   Received command script._applySessionData for destination WINDOW_GLOBAL
+1707125491112   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125491112   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125491112   RemoteAgent     TRACE   Created MessageHandler WINDOW_GLOBAL for session 49697301-467c-4b9c-a7b4-72bb2b6df35b
+ ❯ basic.test.js (1)
+   / extension command on moz-extension page
+1707125491127   RemoteAgent     TRACE   [13] NavigationListener onStateChange, stateFlags: 983041, status: 0, isStart: true, isStop: false, isNetwork: true, isBindingAborted: false, targetURI: about:blank
+1707125491127   RemoteAgent     TRACE   [13] ProgressListener Check loading state: isStart=1 isStop=0
+1707125491127   RemoteAgent     TRACE   [13] ProgressListener state=start: about:blank
+1707125491127   RemoteAgent     TRACE   [13] ProgressListener Cleared the unload timer
+1707125491128   RemoteAgent     TRACE   [13] NavigationListener onStateChange, stateFlags: 131088, status: 2152398850, isStart: false, isStop: true, isNetwork: false, isBindingAborted: true, targetURI: about:blank
+1707125491129   RemoteAgent     TRACE   [13] NavigationListener onStateChange, stateFlags: 983041, status: 0, isStart: true, isStop: false, isNetwork: true, isBindingAborted: false, targetURI: about:blank
+1707125491129   RemoteAgent     TRACE   [c421f436-37d5-47c8-8668-7c08dfd2f982] Navigation started for url: about:blank (7cc3e369-8c24-48d2-849e-b2dabfcc8cfa)
+1707125491129   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"event","method":"browsingContext.navigationStarted","params":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982","navigation":"7cc3e369-8c24-48d2-849e-b2dabfcc8cfa","timestamp":1707125491129,"url":"about:blank"}}
+1707125491131   RemoteAgent     TRACE   [13] ProgressListener Check loading state: isStart=0 isStop=16
+1707125491131   RemoteAgent     TRACE   [13] ProgressListener Ignore aborted navigation error to the initial document, real document will be loaded.
+1707125491133   RemoteAgent     TRACE   [13] ProgressListener Check loading state: isStart=1 isStop=0
+ ❯ basic.test.js (1)
+   - extension command on moz-extension page
+1707125491141   RemoteAgent     TRACE   Module windowglobal/browsingContext.sys.mjs found for WINDOW_GLOBAL
+1707125491141   RemoteAgent     TRACE   Module windowglobal/network.sys.mjs not found for WINDOW_GLOBAL
+1707125491141   RemoteAgent     TRACE   Module windowglobal/network.sys.mjs not found for WINDOW_GLOBAL
+1707125491141   RemoteAgent     TRACE   Module windowglobal/network.sys.mjs not found for WINDOW_GLOBAL
+1707125491141   RemoteAgent     TRACE   Module windowglobal/log.sys.mjs found for WINDOW_GLOBAL
+1707125491141   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125491141   RemoteAgent     TRACE   Received command browsingContext._applySessionData for destination WINDOW_GLOBAL
+1707125491141   RemoteAgent     TRACE   Module windowglobal/browsingContext.sys.mjs found for WINDOW_GLOBAL
+1707125491141   RemoteAgent     TRACE   Module windowglobal/browsingContext.sys.mjs found for WINDOW_GLOBAL
+1707125491141   RemoteAgent     TRACE   Received command log._applySessionData for destination WINDOW_GLOBAL
+1707125491141   RemoteAgent     TRACE   Module windowglobal/log.sys.mjs found for WINDOW_GLOBAL
+1707125491141   RemoteAgent     TRACE   Module windowglobal/log.sys.mjs found for WINDOW_GLOBAL
+1707125491142   RemoteAgent     TRACE   Received command script._applySessionData for destination WINDOW_GLOBAL
+1707125491142   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125491142   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125491142   RemoteAgent     TRACE   Created MessageHandler WINDOW_GLOBAL for session 49697301-467c-4b9c-a7b4-72bb2b6df35b
+1707125491148   RemoteAgent     TRACE   [13] NavigationListener onStateChange, stateFlags: 196612, status: 0, isStart: false, isStop: false, isNetwork: false, isBindingAborted: false, targetURI: about:blank
+1707125491148   RemoteAgent     TRACE   [13] NavigationListener onStateChange, stateFlags: 196612, status: 0, isStart: false, isStop: false, isNetwork: false, isBindingAborted: false, targetURI: about:blank
+1707125491148   RemoteAgent     TRACE   MessageHandler WINDOW_GLOBAL for session 49697301-467c-4b9c-a7b4-72bb2b6df35b is being destroyed
+1707125491148   RemoteAgent     TRACE   Unregistered MessageHandler WINDOW_GLOBAL for session 49697301-467c-4b9c-a7b4-72bb2b6df35b
+1707125491148   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"event","method":"script.realmDestroyed","params":{"realm":"4961a022-ed16-4ff0-910f-3b04749a0fd8"}}
+1707125491151   RemoteAgent     TRACE   [13] NavigationListener onStateChange, stateFlags: 131088, status: 0, isStart: false, isStop: true, isNetwork: false, isBindingAborted: false, targetURI: about:blank
+1707125491152   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"event","method":"script.realmCreated","params":{"realm":"771921bd-26a8-47f1-ba23-1aa2f0f498e7","origin":"null","context":"c421f436-37d5-47c8-8668-7c08dfd2f982","type":"window"}}
+ ❯ basic.test.js (1)
+   \ extension command on moz-extension page
+1707125491162   RemoteAgent     TRACE   [c421f436-37d5-47c8-8668-7c08dfd2f982] Navigation finished for url: about:blank (7cc3e369-8c24-48d2-849e-b2dabfcc8cfa)
+1707125491162   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"event","method":"browsingContext.load","params":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982","timestamp":1707125491152,"url":"about:blank","navigation":"7cc3e369-8c24-48d2-849e-b2dabfcc8cfa"}}
+1707125491164   RemoteAgent     TRACE   [13] ProgressListener Check loading state: isStart=0 isStop=16
+1707125491164   RemoteAgent     TRACE   [13] ProgressListener state=stop: about:blank
+1707125491164   RemoteAgent     TRACE   [13] ProgressListener Stop: has error=false
+1707125491165   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":5,"result":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982"}}
+1707125491170   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":6,"method":"browsingContext.setViewport","params":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982","viewport":{"width":800,"height":600},"devicePixelRatio":null}}
+1707125491170   RemoteAgent     TRACE   Module root/browsingContext.sys.mjs found for ROOT
+1707125491170   RemoteAgent     TRACE   Received command browsingContext.setViewport for destination ROOT
+1707125491170   RemoteAgent     TRACE   Module root/browsingContext.sys.mjs found for ROOT
+ ❯ basic.test.js (1)
+   | extension command on moz-extension page
+1707125491188   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":6,"result":{}}
+1707125491192   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":7,"method":"browsingContext.navigate","params":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982","url":"moz-extension://eb7c9a05-56f8-47bf-9c14-2c7da7529a02/pages/sidebar.html","wait":"interactive"}}
+1707125491192   RemoteAgent     TRACE   Module root/browsingContext.sys.mjs found for ROOT
+1707125491192   RemoteAgent     TRACE   Received command browsingContext.navigate for destination ROOT
+1707125491192   RemoteAgent     TRACE   Module root/browsingContext.sys.mjs found for ROOT
+1707125491192   RemoteAgent     TRACE   Received command browsingContext._getBaseURL for destination WINDOW_GLOBAL
+1707125491192   RemoteAgent     TRACE   Module windowglobal-in-root/browsingContext.sys.mjs found for WINDOW_GLOBAL
+1707125491192   RemoteAgent     TRACE   Module windowglobal/browsingContext.sys.mjs found for WINDOW_GLOBAL
+1707125491192   RemoteAgent     TRACE   Received command browsingContext._getBaseURL for destination WINDOW_GLOBAL
+1707125491193   RemoteAgent     TRACE   Module windowglobal/browsingContext.sys.mjs found for WINDOW_GLOBAL
+1707125491195   RemoteAgent     TRACE   Module windowglobal-in-root/browsingContext.sys.mjs found for WINDOW_GLOBAL
+1707125491195   RemoteAgent     TRACE   Module windowglobal/browsingContext.sys.mjs found for WINDOW_GLOBAL
+1707125491195   RemoteAgent     TRACE   Received command browsingContext._applySessionData for destination WINDOW_GLOBAL
+1707125491195   RemoteAgent     TRACE   Module windowglobal-in-root/browsingContext.sys.mjs found for WINDOW_GLOBAL
+1707125491195   RemoteAgent     TRACE   Module windowglobal/browsingContext.sys.mjs found for WINDOW_GLOBAL
+1707125491195   RemoteAgent     TRACE   Module root/browsingContext.sys.mjs found for ROOT
+1707125491195   RemoteAgent     TRACE   Received command browsingContext._applySessionData for destination ROOT
+1707125491195   RemoteAgent     TRACE   Module root/browsingContext.sys.mjs found for ROOT
+1707125491195   RemoteAgent     TRACE   Received command browsingContext._applySessionData for destination WINDOW_GLOBAL
+1707125491196   RemoteAgent     TRACE   Module windowglobal/browsingContext.sys.mjs found for WINDOW_GLOBAL
+1707125491196   RemoteAgent     TRACE   [13] ProgressListener Start: expectNavigation=true resolveWhenStarted=false unloadTimeout=200 waitForExplicitStart=true
+1707125491196   RemoteAgent     TRACE   [13] ProgressListener Skip setting the unload timer
+1707125491197   RemoteAgent     TRACE   [13] NavigationListener onStateChange, stateFlags: 983041, status: 0, isStart: true, isStop: false, isNetwork: true, isBindingAborted: false, targetURI: moz-extension://eb7c9a05-56f8-47bf-9c14-2c7da7529a02/pages/sidebar.html
+1707125491197   RemoteAgent     TRACE   [c421f436-37d5-47c8-8668-7c08dfd2f982] Navigation started for url: moz-extension://eb7c9a05-56f8-47bf-9c14-2c7da7529a02/pages/sidebar.html (6ea9fdfd-cf39-4117-bcc5-c2c954663fa2)
+ ❯ basic.test.js (1)
+   / extension command on moz-extension page
+1707125491198   RemoteAgent     TRACE   [13] ProgressListener Check loading state: isStart=1 isStop=0
+1707125491199   RemoteAgent     TRACE   [13] ProgressListener state=start: moz-extension://eb7c9a05-56f8-47bf-9c14-2c7da7529a02/pages/sidebar.html
+1707125491212   RemoteAgent     TRACE   [13] NavigationListener onStateChange, stateFlags: 131088, status: 2152398850, isStart: false, isStop: true, isNetwork: false, isBindingAborted: true, targetURI: moz-extension://eb7c9a05-56f8-47bf-9c14-2c7da7529a02/pages/sidebar.html
+1707125491213   RemoteAgent     TRACE   MessageHandler WINDOW_GLOBAL for session 49697301-467c-4b9c-a7b4-72bb2b6df35b is being destroyed
+1707125491213   RemoteAgent     TRACE   Unregistered MessageHandler WINDOW_GLOBAL for session 49697301-467c-4b9c-a7b4-72bb2b6df35b
+ ❯ basic.test.js (1)
+   - extension command on moz-extension page
+1707125491226   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"event","method":"script.realmCreated","params":{"realm":"4cfd308e-4514-487b-8bb9-e92f99ace838","origin":"null","context":"c421f436-37d5-47c8-8668-7c08dfd2f982","type":"window"}}
+1707125491228   RemoteAgent     TRACE   Module windowglobal/browsingContext.sys.mjs found for WINDOW_GLOBAL
+1707125491228   RemoteAgent     TRACE   Module windowglobal/network.sys.mjs not found for WINDOW_GLOBAL
+1707125491228   RemoteAgent     TRACE   Module windowglobal/network.sys.mjs not found for WINDOW_GLOBAL
+1707125491228   RemoteAgent     TRACE   Module windowglobal/network.sys.mjs not found for WINDOW_GLOBAL
+1707125491229   RemoteAgent     TRACE   Module windowglobal/log.sys.mjs found for WINDOW_GLOBAL
+1707125491229   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125491230   RemoteAgent     TRACE   Received command browsingContext._applySessionData for destination WINDOW_GLOBAL
+1707125491230   RemoteAgent     TRACE   Module windowglobal/browsingContext.sys.mjs found for WINDOW_GLOBAL
+1707125491230   RemoteAgent     TRACE   Module windowglobal/browsingContext.sys.mjs found for WINDOW_GLOBAL
+1707125491230   RemoteAgent     TRACE   Received command log._applySessionData for destination WINDOW_GLOBAL
+1707125491230   RemoteAgent     TRACE   Module windowglobal/log.sys.mjs found for WINDOW_GLOBAL
+1707125491230   RemoteAgent     TRACE   Module windowglobal/log.sys.mjs found for WINDOW_GLOBAL
+1707125491231   RemoteAgent     TRACE   Received command script._applySessionData for destination WINDOW_GLOBAL
+1707125491231   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125491231   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125491231   RemoteAgent     TRACE   Created MessageHandler WINDOW_GLOBAL for session 49697301-467c-4b9c-a7b4-72bb2b6df35b
+ ❯ basic.test.js (1)
+   \ extension command on moz-extension page
+1707125491236   RemoteAgent     TRACE   [c421f436-37d5-47c8-8668-7c08dfd2f982] Skipping already tracked navigation, navigationId: 6ea9fdfd-cf39-4117-bcc5-c2c954663fa2
+1707125491239   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"event","method":"script.realmDestroyed","params":{"realm":"4cfd308e-4514-487b-8bb9-e92f99ace838"}}
+1707125491240   RemoteAgent     TRACE   [15] NavigationListener onStateChange, stateFlags: 196612, status: 0, isStart: false, isStop: false, isNetwork: false, isBindingAborted: false, targetURI: moz-extension://eb7c9a05-56f8-47bf-9c14-2c7da7529a02/pages/sidebar.html
+1707125491240   RemoteAgent     TRACE   [15] NavigationListener onStateChange, stateFlags: 196612, status: 0, isStart: false, isStop: false, isNetwork: false, isBindingAborted: false, targetURI: moz-extension://eb7c9a05-56f8-47bf-9c14-2c7da7529a02/pages/sidebar.html
+1707125491241   RemoteAgent     TRACE   MessageHandler WINDOW_GLOBAL for session 49697301-467c-4b9c-a7b4-72bb2b6df35b is being destroyed
+1707125491241   RemoteAgent     TRACE   Unregistered MessageHandler WINDOW_GLOBAL for session 49697301-467c-4b9c-a7b4-72bb2b6df35b
+ ❯ basic.test.js (1)
+   | extension command on moz-extension page
+1707125491260   RemoteAgent     TRACE   [c421f436-37d5-47c8-8668-7c08dfd2f982] Navigation finished for url: moz-extension://eb7c9a05-56f8-47bf-9c14-2c7da7529a02/pages/sidebar.html (6ea9fdfd-cf39-4117-bcc5-c2c954663fa2)
+1707125491261   RemoteAgent     TRACE   [15] ProgressListener Check loading state: isStart=0 isStop=16
+1707125491261   RemoteAgent     TRACE   [15] ProgressListener state=stop: moz-extension://eb7c9a05-56f8-47bf-9c14-2c7da7529a02/pages/sidebar.html
+1707125491261   RemoteAgent     TRACE   [15] ProgressListener Stop: has error=false
+1707125491262   RemoteAgent     TRACE   Module windowglobal-in-root/browsingContext.sys.mjs found for WINDOW_GLOBAL
+1707125491262   RemoteAgent     TRACE   Module windowglobal/browsingContext.sys.mjs found for WINDOW_GLOBAL
+1707125491262   RemoteAgent     TRACE   Received command browsingContext._applySessionData for destination WINDOW_GLOBAL
+1707125491262   RemoteAgent     TRACE   Module windowglobal-in-root/browsingContext.sys.mjs found for WINDOW_GLOBAL
+1707125491262   RemoteAgent     TRACE   Module windowglobal/browsingContext.sys.mjs found for WINDOW_GLOBAL
+1707125491262   RemoteAgent     TRACE   Module root/browsingContext.sys.mjs found for ROOT
+1707125491262   RemoteAgent     TRACE   Received command browsingContext._applySessionData for destination ROOT
+1707125491262   RemoteAgent     TRACE   Module root/browsingContext.sys.mjs found for ROOT
+1707125491262   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":7,"result":{"navigation":"6ea9fdfd-cf39-4117-bcc5-c2c954663fa2","url":"moz-extension://eb7c9a05-56f8-47bf-9c14-2c7da7529a02/pages/sidebar.html"}}
+1707125491267   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":8,"method":"browsingContext.activate","params":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982"}}
+1707125491268   RemoteAgent     TRACE   Module root/browsingContext.sys.mjs found for ROOT
+1707125491268   RemoteAgent     TRACE   Received command browsingContext.activate for destination ROOT
+1707125491268   RemoteAgent     TRACE   Module root/browsingContext.sys.mjs found for ROOT
+1707125491268   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":8,"result":{}}
+1707125491276   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":9,"method":"script.evaluate","params":{"expression":"(() => {\n      const module = {};\n      \"use strict\";var C=Object.defineProperty;var ne=Object.getOwnPropertyDescriptor;var o ...  * SPDX-License-Identifier: Apache-2.0\n */\n\n      \n      return module.exports.default;\n    })()\n//# sourceURL=pptr ❯ basic.test.js (1)
+   / extension command on moz-extension page
+1707125491276   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491276   RemoteAgent     TRACE   Received command script.evaluate for destination ROOT
+1707125491276   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491278   RemoteAgent     TRACE   Created MessageHandler WINDOW_GLOBAL for session 49697301-467c-4b9c-a7b4-72bb2b6df35b
+1707125491278   RemoteAgent     TRACE   Received command script.evaluateExpression for destination WINDOW_GLOBAL
+1707125491278   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125491278   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125491279   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"event","method":"script.realmCreated","params":{"realm":"8cc7585d-4017-4148-bfe5-d773f7553dbb","origin":"moz-extension://eb7c9a05-56f8-47bf-9c14-2c7da7529a02","context":"c421f436-37d5-47c8-8668-7c08dfd2f982","type":"window"}}
+1707125491280   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"event","method":"script.realmCreated","params":{"realm":"76bf14a9-5d9f-405d-b0a5-f8420f21e1da","origin":"moz-extension://eb7c9a05-56f8-47bf-9c14-2c7da7529a02","context":"c421f436-37d5-47c8-8668-7c08dfd2f982","type":"window","sandbox":"__puppeteer_utility_world__"}}
+1707125491283   RemoteAgent     TRACE   WebDriverProcessData actor created for PID 25156
+1707125491287   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":9,"result":{"realm":"76bf14a9-5d9f-405d-b0a5-f8420f21e1da","type":"success","result":{"type":"object","handle":"224672c6-18bb-4318-b346-61e8198d8f20"}}}
+1707125491291   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":10,"method":"script.callFunction","params":{"functionDeclaration":"({ MutationPoller, createFunction }, root, fn, ...args) => {\n                        const fun = createFunction(fn);\n         ... -bidi-keyboard-bug-example%5Ctests%5Cnode_modules%5Cpuppeteer-core%5Clib%5Cesm%5Cpuppeteer%5Ccommon%5CWaitTask.js%3A82%3A54)\n","arguments":[{"type":"object","handle":"224672c6-18bb-4318-b346-61e8198d8f20"},{"type":"undefined"},{"type":"string","value":"async (PuppeteerUtil, query, selector, root, visible) => {\n                        const querySelector = PuppeteerUtil.create ...  selector, PuppeteerUtil);\n                        return PuppeteerUtil.checkVisibility(node, visible);\n                    }"},{"type":"object","handle":"224672c6-18bb-4318-b346-61e8198d8f20"},{"type":"string","value":"(element, selector, { pQuerySelector }) => {\n        return pQuerySelector(element, selector);\n    }"},{"type":"string","value":"ul"},{"type":"undefined"},{"type":"undefined"}],"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982","sandbox":"__puppeteer_utility_world__"},"resultOwnership":"root","awaitPromise":true,"userActivation":true,"serializationOptions":{"maxObjectDepth":0,"maxDomDepth":0}}}
+1707125491291   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491291   RemoteAgent     TRACE   Received command script.callFunction for destination ROOT
+1707125491291   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491291   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":11,"method":"script.callFunction","params":{"functionDeclaration":"({ MutationPoller, createFunction }, root, fn, ...args) => {\n                        const fun = createFunction(fn);\n         ... -bidi-keyboard-bug-example%5Ctests%5Cnode_modules%5Cpuppeteer-core%5Clib%5Cesm%5Cpuppeteer%5Ccommon%5CWaitTask.js%3A82%3A54)\n","arguments":[{"type":"object","handle":"224672c6-18bb-4318-b346-61e8198d8f20"},{"type":"undefined"},{"type":"string","value":"async (PuppeteerUtil, query, selector, root, visible) => {\n                        const querySelector = PuppeteerUtil.create ...  selector, PuppeteerUtil);\n                        return PuppeteerUtil.checkVisibility(node, visible);\n                    }"},{"type":"object","handle":"224672c6-18bb-4318-b346-61e8198d8f20"},{"type":"string","value":"(element, selector, { pQuerySelector }) => {\n        return pQuerySelector(element, selector);\n    }"},{"type":"string","value":"ul"},{"type":"undefined"},{"type":"undefined"}],"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982","sandbox":"__puppeteer_utility_world__"},"resultOwnership":"root","awaitPromise":true,"userActivation":true,"serializationOptions":{"maxObjectDepth":0,"maxDomDepth":0}}}
+1707125491291   RemoteAgent     TRACE   Received command script.callFunctionDeclaration for destination WINDOW_GLOBAL
+1707125491291   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491291   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL1707125491291 RemoteAgent     TRACE   Received command script.callFunction for destination ROOT
+ ❯ basic.test.js (1)
+   - extension command on moz-extension page
+1707125491293   RemoteAgent     TRACE   Received command script.callFunctionDeclaration for destination WINDOW_GLOBAL
+1707125491293   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125491293   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":10,"result":{"realm":"76bf14a9-5d9f-405d-b0a5-f8420f21e1da","type":"success","result":{"type":"object","handle":"08079cbd-cb11-4290-a681-e8e3fb011978"}}}
+1707125491294   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":11,"result":{"realm":"76bf14a9-5d9f-405d-b0a5-f8420f21e1da","type":"success","result":{"type":"object","handle":"fc707177-360d-4d54-b3fe-78015399e0fb"}}}
+1707125491295   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":12,"method":"script.callFunction","params":{"functionDeclaration":"poller => {\n                void poller.start();\n            }\n//# sourceURL=pptr:evaluate;WaitTask.rerun%20(C%3A%5CUsers%5Cj ... bidi-keyboard-bug-example%5Ctests%5Cnode_modules%5Cpuppeteer-core%5Clib%5Cesm%5Cpuppeteer%5Ccommon%5CWaitTask.js%3A102%3A32)\n","arguments":[{"type":"object","handle":"08079cbd-cb11-4290-a681-e8e3fb011978"}],"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982","sandbox":"__puppeteer_utility_world__"},"resultOwnership":"none","awaitPromise":true,"userActivation":true,"serializationOptions":{}}}
+1707125491295   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491295   RemoteAgent     TRACE   Received command script.callFunction for destination ROOT
+1707125491295   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491296   RemoteAgent     TRACE   Received command script.callFunctionDeclaration for destination WINDOW_GLOBAL
+1707125491296   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":13,"method":"script.callFunction","params":{"functionDeclaration":"poller => {\n                void poller.start();\n            }\n//# sourceURL=pptr:evaluate;WaitTask.rerun%20(C%3A%5CUsers%5Cj ... bidi-keyboard-bug-example%5Ctests%5Cnode_modules%5Cpuppeteer-core%5Clib%5Cesm%5Cpuppeteer%5Ccommon%5CWaitTask.js%3A102%3A32)\n","arguments":[{"type":"object","handle":"fc707177-360d-4d54-b3fe-78015399e0fb"}],"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982","sandbox":"__puppeteer_utility_world__"},"resultOwnership":"none","awaitPromise":true,"userActivation":true,"serializationOptions":{}}}
+1707125491296   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491296   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125491296   RemoteAgent     TRACE   Received command script.callFunction for destination ROOT
+1707125491296   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491298   RemoteAgent     TRACE   Received command script.callFunctionDeclaration for destination WINDOW_GLOBAL
+1707125491298   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125491298   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":12,"result":{"realm":"76bf14a9-5d9f-405d-b0a5-f8420f21e1da","type":"success","result":{"type":"undefined"}}}
+1707125491299   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":13,"result":{"realm":"76bf14a9-5d9f-405d-b0a5-f8420f21e1da","type":"success","result":{"type":"undefined"}}}
+1707125491300   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":14,"method":"script.callFunction","params":{"functionDeclaration":"poller => {\n                return poller.result();\n            }\n//# sourceURL=pptr:evaluateHandle;WaitTask.rerun%20(C%3A%5C ... bidi-keyboard-bug-example%5Ctests%5Cnode_modules%5Cpuppeteer-core%5Clib%5Cesm%5Cpuppeteer%5Ccommon%5CWaitTask.js%3A105%3A47)\n","arguments":[{"type":"object","handle":"fc707177-360d-4d54-b3fe-78015399e0fb"}],"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982","sandbox":"__puppeteer_utility_world__"},"resultOwnership":"root","awaitPromise":true,"userActivation":true,"serializationOptions":{"maxObjectDepth":0,"maxDomDepth":0}}}
+1707125491300   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491300   RemoteAgent     TRACE   Received command script.callFunction for destination ROOT
+1707125491300   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491300   RemoteAgent     TRACE   Received command script.callFunctionDeclaration for destination WINDOW_GLOBAL
+1707125491300   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125491301   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":15,"method":"script.callFunction","params":{"functionDeclaration":"poller => {\n                return poller.result();\n            }\n//# sourceURL=pptr:evaluateHandle;WaitTask.rerun%20(C%3A%5C ... bidi-keyboard-bug-example%5Ctests%5Cnode_modules%5Cpuppeteer-core%5Clib%5Cesm%5Cpuppeteer%5Ccommon%5CWaitTask.js%3A105%3A47)\n","arguments":[{"type":"object","handle":"fc707177-360d-4d54-b3fe-78015399e0fb"}],"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982","sandbox":"__puppeteer_utility_world__"},"resultOwnership":"root","awaitPromise":true,"userActivation":true,"serializationOptions":{"maxObjectDepth":0,"maxDomDepth":0}}}
+1707125491301   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491301   RemoteAgent     TRACE   Received command script.callFunction for destination ROOT
+1707125491301   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491303   RemoteAgent     TRACE   Received command script.callFunctionDeclaration for destination WINDOW_GLOBAL
+1707125491303   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125491303   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":14,"result":{"realm":"76bf14a9-5d9f-405d-b0a5-f8420f21e1da","type":"success","result":{"type":"node","handle":"4c2f8581-6f3c-4a2b-b2b6-de65c86dfad6","sharedId":"05ca8518-7786-41ea-88c4-d56314174a21","value":{"nodeType":1,"localName":"ul","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":7,"attributes":{},"shadowRoot":null}}}}
+1707125491303   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":15,"result":{"realm":"76bf14a9-5d9f-405d-b0a5-f8420f21e1da","type":"success","result":{"type":"node","handle":"7b4977c5-6f72-4525-8c1a-1ec6676e4577","sharedId":"05ca8518-7786-41ea-88c4-d56314174a21","value":{"nodeType":1,"localName":"ul","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":7,"attributes":{},"shadowRoot":null}}}}
+1707125491306   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":16,"method":"script.callFunction","params":{"functionDeclaration":"async (poller) => {\n
+         await poller.stop();\n                }\n//# sourceURL=pptr:evaluateHandle;WaitTask.ter ... bidi-keyboard-bug-example%5Ctests%5Cnode_modules%5Cpuppeteer-core%5Clib%5Cesm%5Cpuppeteer%5Ccommon%5CWaitTask.js%3A129%3A36)\n","arguments":[{"type":"object","handle":"fc707177-360d-4d54-b3fe-78015399e0fb"}],"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982","sandbox":"__puppeteer_utility_world__"},"resultOwnership":"root","awaitPromise":true,"userActivation":true,"serializationOptions":{"maxObjectDepth":0,"maxDomDepth":0}}}
+1707125491306   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491306   RemoteAgent     TRACE   Received command script.callFunction for destination ROOT
+1707125491306   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491307   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":17,"method":"script.callFunction","params":{"functionDeclaration":"node => {\n            return node;\n        }\n//# sourceURL=pptr:evaluateHandle;Sandbox.transferHandle%20(C%3A%5CUsers%5Cjayp% ... fox-bidi-keyboard-bug-example%5Ctests%5Cnode_modules%5Cpuppeteer-core%5Clib%5Cesm%5Cpuppeteer%5Cbidi%5CSandbox.js%3A65%3A46)\n","arguments":[{"type":"node","handle":"4c2f8581-6f3c-4a2b-b2b6-de65c86dfad6","sharedId":"05ca8518-7786-41ea-88c4-d56314174a21","value":{"nodeType":1,"localName":"ul","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":7,"attributes":{},"shadowRoot":null}}],"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982"},"resultOwnership":"root","awaitPromise":true,"userActivation":true,"serializationOptions":{"maxObjectDepth":0,"maxDomDepth":0}}}
+1707125491307   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491307   RemoteAgent     TRACE   Received command script.callFunctionDeclaration for destination WINDOW_GLOBAL
+1707125491307   RemoteAgent     TRACE   Received command script.callFunction for destination ROOT
+1707125491307   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491307   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125491307   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":18,"method":"script.callFunction","params":{"functionDeclaration":"async (poller) => {\n
+         await poller.stop();\n                }\n//# sourceURL=pptr:evaluateHandle;WaitTask.ter ... bidi-keyboard-bug-example%5Ctests%5Cnode_modules%5Cpuppeteer-core%5Clib%5Cesm%5Cpuppeteer%5Ccommon%5CWaitTask.js%3A129%3A36)\n","arguments":[{"type":"object","handle":"fc707177-360d-4d54-b3fe-78015399e0fb"}],"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982","sandbox":"__puppeteer_utility_world__"},"resultOwnership":"root","awaitPromise":true,"userActivation":true,"serializationOptions":{"maxObjectDepth":0,"maxDomDepth":0}}}
+1707125491307   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+ ❯ basic.test.js (1)
+   \ extension command on moz-extension page
+1707125491307   RemoteAgent     TRACE   Received command script.callFunctionDeclaration for destination WINDOW_GLOBAL
+1707125491307   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125491308   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":16,"result":{"realm":"76bf14a9-5d9f-405d-b0a5-f8420f21e1da","type":"success","result":{"type":"undefined"}}}
+1707125491308   RemoteAgent     TRACE   Received command script.callFunctionDeclaration for destination WINDOW_GLOBAL
+1707125491308   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125491308   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":17,"result":{"realm":"8cc7585d-4017-4148-bfe5-d773f7553dbb","type":"success","result":{"type":"node","handle":"2b402f02-27c7-4e43-9013-f765e2164704","sharedId":"05ca8518-7786-41ea-88c4-d56314174a21","value":{"nodeType":1,"localName":"ul","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":7,"attributes":{},"shadowRoot":null}}}}
+1707125491309   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":18,"result":{"realm":"76bf14a9-5d9f-405d-b0a5-f8420f21e1da","type":"success","result":{"type":"undefined"}}}
+1707125491310   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":19,"method":"script.disown","params":{"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982"},"handles":["fc707177-360d-4d54-b3fe-78015399e0fb"]}}
+1707125491310   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491310   RemoteAgent     TRACE   Received command script.disown for destination ROOT
+1707125491310   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491311   RemoteAgent     TRACE   Received command script.disownHandles for destination WINDOW_GLOBAL
+1707125491311   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125491311   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":20,"method":"script.disown","params":{"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982"},"handles":["4c2f8581-6f3c-4a2b-b2b6-de65c86dfad6"]}}
+1707125491311   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491311   RemoteAgent     TRACE   Received command script.disown for destination ROOT
+1707125491311   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491311   RemoteAgent     TRACE   Received command script.disownHandles for destination WINDOW_GLOBAL
+1707125491311   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125491311   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":19,"result":{}}
+1707125491312   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":20,"result":{}}
+1707125491313   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":21,"method":"script.callFunction","params":{"functionDeclaration":"() => {\n                    return document;\n                }\n//# sourceURL=pptr:evaluateHandle;%23document%20(C%3A%5CUsers% ... refox-bidi-keyboard-bug-example%5Ctests%5Cnode_modules%5Cpuppeteer-core%5Clib%5Cesm%5Cpuppeteer%5Capi%5CFrame.js%3A285%3A22)\n","arguments":[],"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982","sandbox":"__puppeteer_utility_world__"},"resultOwnership":"root","awaitPromise":true,"userActivation":true,"serializationOptions":{"maxObjectDepth":0,"maxDomDepth":0}}}
+1707125491314   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491314   RemoteAgent     TRACE   Received command script.callFunction for destination ROOT
+1707125491314   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491314   RemoteAgent     TRACE   Received command script.callFunctionDeclaration for destination WINDOW_GLOBAL
+1707125491314   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125491315   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":21,"result":{"realm":"76bf14a9-5d9f-405d-b0a5-f8420f21e1da","type":"success","result":{"type":"node","handle":"be661df8-8b30-4ce2-ac8e-d7a406c72826","sharedId":"c1c918de-8129-4593-b7b3-5f930ed55706","value":{"nodeType":9,"childNodeCount":2}}}}
+1707125491317   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":22,"method":"script.callFunction","params":{"functionDeclaration":"node => {\n            return node;\n        }\n//# sourceURL=pptr:evaluateHandle;Sandbox.transferHandle%20(C%3A%5CUsers%5Cjayp% ... fox-bidi-keyboard-bug-example%5Ctests%5Cnode_modules%5Cpuppeteer-core%5Clib%5Cesm%5Cpuppeteer%5Cbidi%5CSandbox.js%3A65%3A46)\n","arguments":[{"type":"node","handle":"be661df8-8b30-4ce2-ac8e-d7a406c72826","sharedId":"c1c918de-8129-4593-b7b3-5f930ed55706","value":{"nodeType":9,"childNodeCount":2}}],"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982"},"resultOwnership":"root","awaitPromise":true,"userActivation":true,"serializationOptions":{"maxObjectDepth":0,"maxDomDepth":0}}}
+1707125491317   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491317   RemoteAgent     TRACE   Received command script.callFunction for destination ROOT
+1707125491317   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491317   RemoteAgent     TRACE   Received command script.callFunctionDeclaration for destination WINDOW_GLOBAL
+1707125491317   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125491318   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":22,"result":{"realm":"8cc7585d-4017-4148-bfe5-d773f7553dbb","type":"success","result":{"type":"node","handle":"45d7ae69-9aad-4142-b952-603716633eed","sharedId":"c1c918de-8129-4593-b7b3-5f930ed55706","value":{"nodeType":9,"childNodeCount":2}}}}
+1707125491319   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":23,"method":"script.disown","params":{"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982"},"handles":["be661df8-8b30-4ce2-ac8e-d7a406c72826"]}}
+1707125491319   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491319   RemoteAgent     TRACE   Received command script.disown for destination ROOT
+1707125491319   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491319   RemoteAgent     TRACE   Received command script.disownHandles for destination WINDOW_GLOBAL
+1707125491319   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125491320   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":23,"result":{}}
+1707125491321   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":24,"method":"script.callFunction","params":{"functionDeclaration":"node => {\n            return node;\n        }\n//# sourceURL=pptr:evaluateHandle;Sandbox.adoptHandle%20(C%3A%5CUsers%5Cjayp%5CR ... fox-bidi-keyboard-bug-example%5Ctests%5Cnode_modules%5Cpuppeteer-core%5Clib%5Cesm%5Cpuppeteer%5Cbidi%5CSandbox.js%3A57%3A28)\n","arguments":[{"type":"node","handle":"45d7ae69-9aad-4142-b952-603716633eed","sharedId":"c1c918de-8129-4593-b7b3-5f930ed55706","value":{"nodeType":9,"childNodeCount":2}}],"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982","sandbox":"__puppeteer_utility_world__"},"resultOwnership":"root","awaitPromise":true,"userActivation":true,"serializationOptions":{"maxObjectDepth":0,"maxDomDepth":0}}}
+1707125491321   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491321   RemoteAgent     TRACE   Received command script.callFunction for destination ROOT
+1707125491321   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491322   RemoteAgent     TRACE   Received command script.callFunctionDeclaration for destination WINDOW_GLOBAL
+1707125491322   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125491323   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":24,"result":{"realm":"76bf14a9-5d9f-405d-b0a5-f8420f21e1da","type":"success","result":{"type":"node","handle":"ce90478d-1e77-4840-876e-c97ce2741842","sharedId":"c1c918de-8129-4593-b7b3-5f930ed55706","value":{"nodeType":9,"childNodeCount":2}}}}
+1707125491325   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":25,"method":"script.callFunction","params":{"functionDeclaration":"(element, selector, { pQuerySelector }) => {\n        return pQuerySelector(element, selector);\n    }\n//# sourceURL=pptr:evalu ... -keyboard-bug-example%5Ctests%5Cnode_modules%5Cpuppeteer-core%5Clib%5Cesm%5Cpuppeteer%5Ccommon%5CQueryHandler.js%3A132%3A73)\n","arguments":[{"type":"node","handle":"ce90478d-1e77-4840-876e-c97ce2741842","sharedId":"c1c918de-8129-4593-b7b3-5f930ed55706","value":{"nodeType":9,"childNodeCount":2}},{"type":"string","va ❯ basic.test.js (1)
+   | extension command on moz-extension page
+1707125491325   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491325   RemoteAgent     TRACE   Received command script.callFunction for destination ROOT
+1707125491325   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491325   RemoteAgent     TRACE   Received command script.callFunctionDeclaration for destination WINDOW_GLOBAL
+1707125491325   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125491326   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":25,"result":{"realm":"76bf14a9-5d9f-405d-b0a5-f8420f21e1da","type":"success","result":{"type":"node","handle":"5bb96263-6b89-4850-a7a3-73391c280b87","sharedId":"05ca8518-7786-41ea-88c4-d56314174a21","value":{"nodeType":1,"localName":"ul","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":7,"attributes":{},"shadowRoot":null}}}}
+1707125491328   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":26,"method":"script.callFunction","params":{"functionDeclaration":"node => {\n            return node;\n        }\n//# sourceURL=pptr:evaluateHandle;Sandbox.transferHandle%20(C%3A%5CUsers%5Cjayp% ... fox-bidi-keyboard-bug-example%5Ctests%5Cnode_modules%5Cpuppeteer-core%5Clib%5Cesm%5Cpuppeteer%5Cbidi%5CSandbox.js%3A65%3A46)\n","arguments":[{"type":"node","handle":"5bb96263-6b89-4850-a7a3-73391c280b87","sharedId":"05ca8518-7786-41ea-88c4-d56314174a21","value":{"nodeType":1,"localName":"ul","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":7,"attributes":{},"shadowRoot":null}}],"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982"},"resultOwnership":"root","awaitPromise":true,"userActivation":true,"serializationOptions":{"maxObjectDepth":0,"maxDomDepth":0}}}
+1707125491328   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491328   RemoteAgent     TRACE   Received command script.callFunction for destination ROOT
+1707125491328   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491328   RemoteAgent     TRACE   Received command script.callFunctionDeclaration for destination WINDOW_GLOBAL
+1707125491328   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125491329   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":26,"result":{"realm":"8cc7585d-4017-4148-bfe5-d773f7553dbb","type":"success","result":{"type":"node","handle":"a0823dc4-b18a-4a68-855f-465335a0d927","sharedId":"05ca8518-7786-41ea-88c4-d56314174a21","value":{"nodeType":1,"localName":"ul","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":7,"attributes":{},"shadowRoot":null}}}}
+1707125491331   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":27,"method":"script.disown","params":{"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982"},"handles":["5bb96263-6b89-4850-a7a3-73391c280b87"]}}
+1707125491331   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491331   RemoteAgent     TRACE   Received command script.disown for destination ROOT
+1707125491331   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491331   RemoteAgent     TRACE   Received command script.disownHandles for destination WINDOW_GLOBAL
+1707125491331   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125491332   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":27,"result":{}}
+1707125491333   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":28,"method":"script.disown","params":{"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982"},"handles":["ce90478d-1e77-4840-876e-c97ce2741842"]}}
+1707125491333   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491333   RemoteAgent     TRACE   Received command script.disown for destination ROOT
+1707125491333   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125491333   RemoteAgent     TRACE   Received command script.disownHandles for destination WINDOW_GLOBAL
+1707125491334   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125491334   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":29,"method":"input.performActions","params":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982","actions":[{"type":"key","id":"__puppeteer_keyboard","actions":[{"type":"keyDown","value":""}]}]}}
+1707125491334   RemoteAgent     TRACE   Module root/input.sys.mjs found for ROOT
+1707125491334   RemoteAgent     TRACE   Received command input.performActions for destination ROOT
+1707125491334   RemoteAgent     TRACE   Module root/input.sys.mjs found for ROOT
+1707125491334   RemoteAgent     TRACE   Module root/input.sys.mjs found for ROOT
+1707125491334   RemoteAgent     TRACE   Received command input.performActions for destination WINDOW_GLOBAL
+1707125491334   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":28,"result":{}}
+1707125491335   RemoteAgent     TRACE   Module windowglobal/input.sys.mjs found for WINDOW_GLOBAL
+1707125491335   RemoteAgent     TRACE   Module windowglobal/input.sys.mjs found for WINDOW_GLOBAL
+1707125491339   Marionette      TRACE   Dispatching tick 1/1
+ ❯ basic.test.js (1)
+   / extension command on moz-extension page
+1707125491348   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":30,"method":"input.performActions","params":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982","actions":[{"type":"key","id":"__puppeteer_keyboard","actions":[{"type":"keyDown","value":""}]}]}}
+1707125491348   RemoteAgent     TRACE   Module root/input.sys.mjs found for ROOT
+1707125491348   RemoteAgent     TRACE   Received command input.performActions for destination ROOT
+1707125491348   RemoteAgent     TRACE   Module root/input.sys.mjs found for ROOT
+1707125491348   RemoteAgent     TRACE   Received command input.performActions for destination WINDOW_GLOBAL
+1707125491348   RemoteAgent     TRACE   Module windowglobal/input.sys.mjs found for WINDOW_GLOBAL
+1707125491349   Marionette      TRACE   Dispatching tick 1/1
+1707125491349   Marionette      TRACE   Dispatch KeyDownAction with __puppeteer_keyboard 
+1707125491349   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":30,"result":{}}
+1707125491350   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":31,"method":"input.performActions","params":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982","actions":[{"type":"key","id":"__puppeteer_keyboard","actions":[{"type":"keyDown","value":"D"}]}]}}
+1707125491350   RemoteAgent     TRACE   Module root/input.sys.mjs found for ROOT
+1707125491351   RemoteAgent     TRACE   Received command input.performActions for destination ROOT
+1707125491351   RemoteAgent     TRACE   Module root/input.sys.mjs found for ROOT
+1707125491351   RemoteAgent     TRACE   Received command input.performActions for destination WINDOW_GLOBAL
+1707125491351   RemoteAgent     TRACE   Module windowglobal/input.sys.mjs found for WINDOW_GLOBAL
+1707125491351   Marionette      TRACE   Dispatching tick 1/1
+1707125491351   Marionette      TRACE   Dispatch KeyDownAction with __puppeteer_keyboard D
+1707125491353   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":31,"result":{}}
+1707125491354   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":32,"method":"input.performActions","params":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982","actions":[{"type":"key","id":"__puppeteer_keyboard","actions":[{"type":"keyUp","value":"D"}]}]}}
+1707125491354   RemoteAgent     TRACE   Module root/input.sys.mjs found for ROOT
+1707125491354   RemoteAgent     TRACE   Received command input.performActions for destination ROOT
+1707125491354   RemoteAgent     TRACE   Module root/input.sys.mjs found for ROOT
+1707125491354   RemoteAgent     TRACE   Received command input.performActions for destination WINDOW_GLOBAL
+1707125491354   RemoteAgent     TRACE   Module windowglobal/input.sys.mjs found for WINDOW_GLOBAL
+1707125491355   Marionette      TRACE   Dispatching tick 1/1
+1707125491355   Marionette      TRACE   Dispatch KeyUpAction with __puppeteer_keyboard D
+1707125491355   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":32,"result":{}}
+1707125491357   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":33,"method":"input.performActions","params":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982","actions":[{"type":"key","id":"__puppeteer_keyboard","actions":[{"type":"keyUp","value":""}]}]}}
+1707125491357   RemoteAgent     TRACE   Module root/input.sys.mjs found for ROOT
+1707125491357   RemoteAgent     TRACE   Received command input.performActions for destination ROOT
+1707125491357   RemoteAgent     TRACE   Module root/input.sys.mjs found for ROOT
+1707125491357   RemoteAgent     TRACE   Received command input.performActions for destination WINDOW_GLOBAL
+1707125491357   RemoteAgent     TRACE   Module windowglobal/input.sys.mjs found for WINDOW_GLOBAL
+1707125491358   Marionette      TRACE   Dispatching tick 1/1
+1707125491358   Marionette      TRACE   Dispatch KeyUpAction with __puppeteer_keyboard 
+1707125491358   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":33,"result":{}}
+1707125491360   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":34,"method":"input.performActions","params":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982","actions":[{"type":"key","id":"__puppeteer_keyboard","actions":[{"type":"keyUp","value":""}]}]}}
+1707125491360   RemoteAgent     TRACE   Module root/input.sys.mjs found for ROOT
+1707125491360   RemoteAgent     TRACE   Received command input.performActions for destination ROOT
+1707125491360   RemoteAgent     TRACE   Module root/input.sys.mjs found for ROOT
+1707125491360   RemoteAgent     TRACE   Received command input.performActions for destination WINDOW_GLOBAL
+1707125491360   RemoteAgent     TRACE   Module windowglobal/input.sys.mjs found for WINDOW_GLOBAL
+1707125491360   Marionette      TRACE   Dispatching tick 1/1
+ ❯ basic.test.js (1)
+   / extension command on moz-extension page
+1707125494374   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":35,"method":"script.callFunction","params":{"functionDeclaration":"node => {\n            return node;\n        }\n//# sourceURL=pptr:evaluateHandle;Sandbox.adoptHandle%20(C%3A%5CUsers%5Cjayp%5CR ... fox-bidi-keyboard-bug-example%5Ctests%5Cnode_modules%5Cpuppeteer-core%5Clib%5Cesm%5Cpuppeteer%5Cbidi%5CSandbox.js%3A57%3A28)\n","arguments":[{"type":"node","handle":"a0823dc4-b18a-4a68-855f-465335a0d927","sharedId":"05ca8518-7786-41ea-88c4-d56314174a21","value":{"nodeType":1,"localName":"ul","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":7,"attributes":{},"shadowRoot":null}}],"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982","sandbox":"__puppeteer_utility_world__"},"resultOwnership":"root","awaitPromise":true,"userActivation":true,"serializationOptions":{"maxObjectDepth":0,"maxDomDepth":0}}}
+1707125494374   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494374   RemoteAgent     TRACE   Received command script.callFunction for destination ROOT
+1707125494374   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494375   RemoteAgent     TRACE   Received command script.callFunctionDeclaration for destination WINDOW_GLOBAL
+1707125494375   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125494376   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":35,"result":{"realm":"76bf14a9-5d9f-405d-b0a5-f8420f21e1da","type":"success","result":{"type":"node","handle":"f271c0f2-3a1f-43af-98d1-d40be8275e3b","sharedId":"05ca8518-7786-41ea-88c4-d56314174a21","value":{"nodeType":1,"localName":"ul","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":7,"attributes":{},"shadowRoot":null}}}}
+1707125494378   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":36,"method":"script.callFunction","params":{"functionDeclaration":"(element, selector, { pQuerySelectorAll }) => {\n        return pQuerySelectorAll(element, selector);\n    }\n//# sourceURL=pptr ... -keyboard-bug-example%5Ctests%5Cnode_modules%5Cpuppeteer-core%5Clib%5Cesm%5Cpuppeteer%5Ccommon%5CQueryHandler.js%3A111%3A73)\n","arguments":[{"type":"node","handle":"f271c0f2-3a1f-43af-98d1-d40be8275e3b","sharedId":"05ca8518-7786-41ea-88c4-d56314174a21","value":{"nodeType":1,"localName":"ul","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":7,"attributes":{},"shadowRoot":null}},{"type":"string","value":"li"},{"type":"object","handle":"224672c6-18bb-4318-b346-61e8198d8f20"}],"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982","sandbox":"__puppeteer_utility_world__"},"resultOwnership":"root","awaitPromise":true,"userActivation":true,"serializationOptions":{"maxObjectDepth":0,"maxDomDepth":0}}}
+1707125494378   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494378   RemoteAgent     TRACE   Received command script.callFunction for destination ROOT
+1707125494378   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494379   RemoteAgent     TRACE   Received command script.callFunctionDeclaration for destination WINDOW_GLOBAL
+1707125494379   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125494380   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":36,"result":{"realm":"76bf14a9-5d9f-405d-b0a5-f8420f21e1da","type":"success","result":{"type":"nodelist","handle":"12d6f786-5965-4c26-9af4-725141ea898a"}}}
+1707125494382   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":37,"method":"script.callFunction","params":{"functionDeclaration":"iterable => {\n            return (async function* () {\n                yield* iterable;\n            })();\n        }\n//# sourc ... eyboard-bug-example%5Ctests%5Cnode_modules%5Cpuppeteer-core%5Clib%5Cesm%5Cpuppeteer%5Ccommon%5CHandleIterator.js%3A121%3A77)\n","arguments":[{"type":"nodelist","handle":"12d6f786-5965-4c26-9af4-725141ea898a"}],"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982","sandbox":"__puppeteer_utility_world__"},"resultOwnership":"root","awaitPromise":true,"userActivation":true,"serializationOptions":{"maxObjectDepth":0,"maxDomDepth":0}}}
+1707125494382   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494382   RemoteAgent     TRACE   Received command script.callFunction for destination ROOT
+1707125494382   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494383   RemoteAgent     TRACE   Received command script.callFunctionDeclaration for destination WINDOW_GLOBAL
+1707125494383   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125494383   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":37,"result":{"realm":"76bf14a9-5d9f-405d-b0a5-f8420f21e1da","type":"success","result":{"type":"generator","handle":"c7173499-8e62-437a-9832-9594665d93ab"}}}
+1707125494385   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":38,"method":"script.callFunction","params":{"functionDeclaration":"async (iterator, size) => {\n            const results = [];\n            while (results.length < size) {\n                const ... keyboard-bug-example%5Ctests%5Cnode_modules%5Cpuppeteer-core%5Clib%5Cesm%5Cpuppeteer%5Ccommon%5CHandleIterator.js%3A64%3A69)\n","arguments":[{"type":"generator","handle":"c7173499-8e62-437a-9832-9594665d93ab"},{"type":"number","value":20}],"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982","sandbox":"__puppeteer_utility_world__"},"resultOwnership":"root","awaitPromise":true,"userActivation":true,"serializationOptions":{"maxObjectDepth":0,"maxDomDepth":0}}}
+1707125494386   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494386   RemoteAgent     TRACE   Received command script.callFunction for destination ROOT
+1707125494386   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494386   RemoteAgent     TRACE   Received command script.callFunctionDeclaration for destination WINDOW_GLOBAL
+1707125494386   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+ ❯ basic.test.js (1)
+   - extension command on moz-extension page
+1707125494389   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":39,"method":"script.callFunction","params":{"functionDeclaration":"object => {\n                const enumerableProperties = [];\n                const descriptors = Object.getOwnPropertyDescrip ... ox-bidi-keyboard-bug-example%5Ctests%5Cnode_modules%5Cpuppeteer-core%5Clib%5Cesm%5Cpuppeteer%5Capi%5CJSHandle.js%3A179%3A46)\n","arguments":[{"type":"array","handle":"c2777e72-9f86-4e9d-a36c-13b288882fea"}],"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982","sandbox":"__puppeteer_utility_world__"},"resultOwnership":"none","awaitPromise":true,"userActivation":true,"serializationOptions":{}}}
+1707125494389   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494389   RemoteAgent     TRACE   Received command script.callFunction for destination ROOT
+1707125494389   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494389   RemoteAgent     TRACE   Received command script.callFunctionDeclaration for destination WINDOW_GLOBAL
+1707125494389   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125494390   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":39,"result":{"realm":"76bf14a9-5d9f-405d-b0a5-f8420f21e1da","type":"success","result":{"type":"array","value":[{"type":"string","value":"0"},{"type":"string","value":"1"},{"type":"string","value":"2"}]}}}
+1707125494392   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":40,"method":"script.callFunction","params":{"functionDeclaration":"(object, propertyName) => {\n                return object[propertyName];\n            }\n//# sourceURL=pptr:evaluateHandle;Bidi ... ox-bidi-keyboard-bug-example%5Ctests%5Cnode_modules%5Cpuppeteer-core%5Clib%5Cesm%5Cpuppeteer%5Capi%5CJSHandle.js%3A156%3A31)\n","arguments":[{"type":"array","handle":"c2777e72-9f86-4e9d-a36c-13b288882fea"},{"type":"string","value":"0"}],"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982","sandbox":"__puppeteer_utility_world__"},"resultOwnership":"root","awaitPromise":true,"userActivation":true,"serializationOptions":{"maxObjectDepth":0,"maxDomDepth":0}}}
+1707125494392   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494392   RemoteAgent     TRACE   Received command script.callFunction for destination ROOT
+1707125494392   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494392   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":41,"method":"script.callFunction","params":{"functionDeclaration":"(object, propertyName) => {\n                return object[propertyName];\n            }\n//# sourceURL=pptr:evaluateHandle;Bidi ... ox-bidi-keyboard-bug-example%5Ctests%5Cnode_modules%5Cpuppeteer-core%5Clib%5Cesm%5Cpuppeteer%5Capi%5CJSHandle.js%3A156%3A31)\n","arguments":[{"type":"array","handle":"c2777e72-9f86-4e9d-a36c-13b288882fea"},{"type":"string","value":"1"}],"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982","sandbox":"__puppeteer_utility_world__"},"resultOwnership":"root","awaitPromise":true,"userActivation":true,"serializationOptions":{"maxObjectDepth":0,"maxDomDepth":0}}}
+1707125494392   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494392   RemoteAgent     TRACE   Received command script.callFunction for destination ROOT
+1707125494392   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494392   RemoteAgent     TRACE   Received command script.callFunctionDeclaration for destination WINDOW_GLOBAL
+1707125494393   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125494393   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":42,"method":"script.callFunction","params":{"functionDeclaration":"(object, propertyName) => {\n                return object[propertyName];\n            }\n//# sourceURL=pptr:evaluateHandle;Bidi ... ox-bidi-keyboard-bug-example%5Ctests%5Cnode_modules%5Cpuppeteer-core%5Clib%5Cesm%5Cpuppeteer%5Capi%5CJSHandle.js%3A156%3A31)\n","arguments":[{"type":"array","handle":"c2777e72-9f86-4e9d-a36c-13b288882fea"},{"type":"string","value":"2"}],"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982","sandbox":"__puppeteer_utility_world__"},"resultOwnership":"root","awaitPromise":true,"userActivation":true,"serializationOptions":{"maxObjectDepth":0,"maxDomDepth":0}}}
+1707125494393   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494393   RemoteAgent     TRACE   Received command script.callFunction for destination ROOT
+1707125494393   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494393   RemoteAgent     TRACE   Received command script.callFunctionDeclaration for destination WINDOW_GLOBAL
+1707125494393   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125494393   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":40,"result":{"realm":"76bf14a9-5d9f-405d-b0a5-f8420f21e1da","type":"success","result":{"type":"node","handle":"b9b848f3-319c-416d-b8b7-817b853658cc","sharedId":"d28c41f7-0c2d-483b-9906-ab3de3196f25","value":{"nodeType":1,"localName":"li","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":1,"attributes":{},"shadowRoot":null}}}}
+1707125494394   RemoteAgent     TRACE   Received command script.callFunctionDeclaration for destination WINDOW_GLOBAL
+1707125494394   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125494394   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":41,"result":{"realm":"76bf14a9-5d9f-405d-b0a5-f8420f21e1da","type":"success","result":{"type":"node","handle":"c4dbb80e-c61d-4f6e-a1e3-2ecb426bbee0","sharedId":"060e5e09-12cd-4a0e-8eba-7de25d4c5968","value":{"nodeType":1,"localName":"li","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":1,"attributes":{},"shadowRoot":null}}}}
+1707125494394   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":42,"result":{"realm":"76bf14a9-5d9f-405d-b0a5-f8420f21e1da","type":"success","result":{"type":"node","handle":"271b5bab-e005-41cf-8ac0-69d7be078b73","sharedId":"7e3fbeaf-1a5b-4483-bb4b-09ad9c70847a","value":{"nodeType":1,"localName":"li","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":1,"attributes":{},"shadowRoot":null}}}}
+1707125494396   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":43,"method":"script.disown","params":{"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982"},"handles":["c2777e72-9f86-4e9d-a36c-13b288882fea"]}}
+1707125494396   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494396   RemoteAgent     TRACE   Received command script.disown for destination ROOT
+1707125494396   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494396   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":44,"method":"script.callFunction","params":{"functionDeclaration":"async (iterator, size) => {\n            const results = [];\n            while (results.length < size) {\n                const ... keyboard-bug-example%5Ctests%5Cnode_modules%5Cpuppeteer-core%5Clib%5Cesm%5Cpuppeteer%5Ccommon%5CHandleIterator.js%3A64%3A69)\n","arguments":[{"type":"generator","handle":"c7173499-8e62-437a-9832-9594665d93ab"},{"type":"number","value":40}],"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982","sandbox":"__puppeteer_utility_world__"},"resultOwnership":"root","awaitPromise":true,"userActivation":true,"serializationOptions":{"maxObjectDepth":0,"maxDomDepth":0}}}
+1707125494396   RemoteAgent     TRACE   Received command script.disownHandles for destination WINDOW_GLOBAL
+1707125494396   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125494396   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494396   RemoteAgent     TRACE   Received command script.callFunction for destination ROOT
+1707125494396   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494397   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":43,"result":{}}
+1707125494397   RemoteAgent     TRACE   Received command script.callFunctionDeclaration for destination WINDOW_GLOBAL
+1707125494397   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125494397   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":44,"result":{"realm":"76bf14a9-5d9f-405d-b0a5-f8420f21e1da","type":"success","result":{"type":"array","handle":"1e55eda9-be0c-43c3-b8a9-cbb3db265cd8"}}}
+1707125494399   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":45,"method":"script.callFunction","params":{"functionDeclaration":"object => {\n                const enumerableProperties = [];\n                const descriptors = Object.getOwnPropertyDescrip ... ox-bidi-keyboard-bug-example%5Ctests%5Cnode_modules%5Cpuppeteer-core%5Clib%5Cesm%5Cpuppeteer%5Capi%5CJSHandle.js%3A179%3A46)\n","arguments":[{"type":"array","handle":"1e55eda9-be0c-43c3-b8a9-cbb3db265cd8"}],"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982","sandbox":"__puppeteer_utility_world__"},"resultOwnership":"none","awaitPromise":true,"userActivation":true,"serializationOptions":{}}}
+1707125494399   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494399   RemoteAgent     TRACE   Received command script.callFunction for destination ROOT
+1707125494399   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494399   RemoteAgent     TRACE   Received command script.callFunctionDeclaration for destination WINDOW_GLOBAL
+1707125494399   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125494400   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":45,"result":{"realm":"76bf14a9-5d9f-405d-b0a5-f8420f21e1da","type":"success","result":{"type":"array","value":[]}}}
+1707125494401   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":46,"method":"script.disown","params":{"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982"},"handles":["1e55eda9-be0c-43c3-b8a9-cbb3db265cd8"]}}
+1707125494401   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494401   RemoteAgent     TRACE   Received command script.disown for destination ROOT
+1707125494401   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494401   RemoteAgent     TRACE   Received command script.disownHandles for destination WINDOW_GLOBAL
+1707125494401   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":47,"method":"script.disown","params":{"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982"},"handles":["c7173499-8e62-437a-9832-9594665d93ab"]}}
+1707125494401   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125494401   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494401   RemoteAgent     TRACE   Received command script.disown for destination ROOT
+1707125494401   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494402   RemoteAgent     TRACE   Received command script.disownHandles for destination WINDOW_GLOBAL
+1707125494402   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125494402   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":48,"method":"script.disown","params":{"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982"},"handles":["12d6f786-5965-4c26-9af4-725141ea898a"]}}
+1707125494402   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494402   RemoteAgent     TRACE   Received command script.disown for destination ROOT
+1707125494402   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494402   RemoteAgent     TRACE   Received command script.disownHandles for destination WINDOW_GLOBAL
+1707125494402   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125494402   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":46,"result":{}}
+1707125494402   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":47,"result":{}}
+1707125494402   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":49,"method":"script.callFunction","params":{"functionDeclaration":"node => {\n            return node;\n        }\n//# sourceURL=pptr:evaluateHandle;Sandbox.transferHandle%20(C%3A%5CUsers%5Cjayp% ... fox-bidi-keyboard-bug-example%5Ctests%5Cnode_modules%5Cpuppeteer-core%5Clib%5Cesm%5Cpuppeteer%5Cbidi%5CSandbox.js%3A65%3A46)\n","arguments":[{"type":"node","handle":"b9b848f3-319c-416d-b8b7-817b853658cc","sharedId":"d28c41f7-0c2d-483b-9906-ab3de3196f25","value":{"nodeType":1,"localName":"li","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":1,"attributes":{},"shadowRoot":null}}],"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982"},"resultOwnership":"root","awaitPromise":true,"userActivation":true,"serializationOptions":{"maxObjectDepth":0,"maxDomDepth":0}}}
+1707125494402   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494402   RemoteAgent     TRACE   Received command script.callFunction for destination ROOT
+1707125494402   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494403   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":48,"result":{}}
+1707125494403   RemoteAgent     TRACE   Received command script.callFunctionDeclaration for destination WINDOW_GLOBAL
+1707125494403   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125494403   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":50,"method":"script.callFunction","params":{"functionDeclaration":"node => {\n            return node;\n        }\n//# sourceURL=pptr:evaluateHandle;Sandbox.transferHandle%20(C%3A%5CUsers%5Cjayp% ... fox-bidi-keyboard-bug-example%5Ctests%5Cnode_modules%5Cpuppeteer-core%5Clib%5Cesm%5Cpuppeteer%5Cbidi%5CSandbox.js%3A65%3A46)\n","arguments":[{"type":"node","handle":"c4dbb80e-c61d-4f6e-a1e3-2ecb426bbee0","sharedId":"060e5e09-12cd-4a0e-8eba-7de25d4c5968","value":{"nodeType":1,"localName":"li","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":1,"attributes":{},"shadowRoot":null}}],"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982"},"resultOwnership":"root","awaitPromise":true,"userActivation":true,"serializationOptions":{"maxObjectDepth":0,"maxDomDepth":0}}}
+1707125494403   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494403   RemoteAgent     TRACE   Received command script.callFunction for destination ROOT
+1707125494403   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494403   RemoteAgent     TRACE   Received command script.callFunctionDeclaration for destination WINDOW_GLOBAL
+1707125494403   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125494403   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":51,"method":"script.callFunction","params":{"functionDeclaration":"node => {\n            return node;\n        }\n//# sourceURL=pptr:evaluateHandle;Sandbox.transferHandle%20(C%3A%5CUsers%5Cjayp% ... fox-bidi-keyboard-bug-example%5Ctests%5Cnode_modules%5Cpuppeteer-core%5Clib%5Cesm%5Cpuppeteer%5Cbidi%5CSandbox.js%3A65%3A46)\n","arguments":[{"type":"node","handle":"271b5bab-e005-41cf-8ac0-69d7be078b73","sharedId":"7e3fbeaf-1a5b-4483-bb4b-09ad9c70847a","value":{"nodeType":1,"localName":"li","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":1,"attributes":{},"shadowRoot":null}}],"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982"},"resultOwnership":"root","awaitPromise":true,"userActivation":true,"serializationOptions":{"maxObjectDepth":0,"maxDomDepth":0}}}
+1707125494403   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494403   RemoteAgent     TRACE   Received command script.callFunction for destination ROOT
+1707125494403   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494404   RemoteAgent     TRACE   Received command script.callFunctionDeclaration for destination WINDOW_GLOBAL
+1707125494404   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125494404   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":49,"result":{"realm":"8cc7585d-4017-4148-bfe5-d773f7553dbb","type":"success","resu ❯ basic.test.js (1)
+   \ extension command on moz-extension page
+1707125494404   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":50,"result":{"realm":"8cc7585d-4017-4148-bfe5-d773f7553dbb","type":"success","result":{"type":"node","handle":"f9f02bb4-1b72-420b-b246-38ee08be4e24","sharedId":"060e5e09-12cd-4a0e-8eba-7de25d4c5968","value":{"nodeType":1,"localName":"li","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":1,"attributes":{},"shadowRoot":null}}}}
+1707125494404   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":51,"result":{"realm":"8cc7585d-4017-4148-bfe5-d773f7553dbb","type":"success","result":{"type":"node","handle":"18297a6a-4d87-470a-b926-a67ea090e978","sharedId":"7e3fbeaf-1a5b-4483-bb4b-09ad9c70847a","value":{"nodeType":1,"localName":"li","namespaceURI":"http://www.w3.org/1999/xhtml","childNodeCount":1,"attributes":{},"shadowRoot":null}}}}
+1707125494405   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":52,"method":"script.disown","params":{"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982"},"handles":["b9b848f3-319c-416d-b8b7-817b853658cc"]}}
+1707125494405   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494405   RemoteAgent     TRACE   Received command script.disown for destination ROOT
+1707125494405   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494405   RemoteAgent     TRACE   Received command script.disownHandles for destination WINDOW_GLOBAL
+1707125494405   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125494405   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":53,"method":"script.disown","params":{"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982"},"handles":["c4dbb80e-c61d-4f6e-a1e3-2ecb426bbee0"]}}
+1707125494406   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494406   RemoteAgent     TRACE   Received command script.disown for destination ROOT
+1707125494406   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494406   RemoteAgent     TRACE   Received command script.disownHandles for destination WINDOW_GLOBAL
+1707125494406   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125494406   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":54,"method":"script.disown","params":{"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982"},"handles":["271b5bab-e005-41cf-8ac0-69d7be078b73"]}}
+1707125494406   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494406   RemoteAgent     TRACE   Received command script.disown for destination ROOT
+1707125494406   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494406   RemoteAgent     TRACE   Received command script.disownHandles for destination WINDOW_GLOBAL
+1707125494406   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125494406   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":52,"result":{}}
+1707125494406   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":53,"result":{}}
+1707125494407   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":54,"result":{}}
+1707125494408   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":55,"method":"script.disown","params":{"target":{"context":"c421f436-37d5-47c8-8668-7c08dfd2f982"},"handles":["f271c0f2-3a1f-43af-98d1-d40be8275e3b"]}}
+1707125494408   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494408   RemoteAgent     TRACE   Received command script.disown for destination ROOT
+1707125494408   RemoteAgent     TRACE   Module root/script.sys.mjs found for ROOT
+1707125494408   RemoteAgent     TRACE   Received command script.disownHandles for destination WINDOW_GLOBAL
+1707125494408   RemoteAgent     TRACE   Module windowglobal/script.sys.mjs found for WINDOW_GLOBAL
+1707125494408   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":55,"result":{}}
+1707125494409   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d -> {"id":56,"method":"browser.close","params":{}}
+1707125494410   RemoteAgent     TRACE   Module root/browser.sys.mjs found for ROOT
+1707125494410   RemoteAgent     TRACE   Received command browser.close for destination ROOT
+1707125494410   RemoteAgent     TRACE   Module root/browser.sys.mjs found for ROOT
+1707125494410   RemoteAgent     TRACE   Module root/browser.sys.mjs found for ROOT
+1707125494410   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d <- {"type":"success","id":56,"result":{}}
+1707125494411   WebDriver BiDi  DEBUG   Unregistered session handler: /session/49697301-467c-4b9c-a7b4-72bb2b6df35b
+1707125494411   RemoteAgent     DEBUG   WebDriverBiDiConnection ff5c5a42-5996-47c2-968a-05edabdfd00d closed
+ ❯ basic.test.js (1)
+ ❯ basic.test.js (1)
+   ✓ extension command on moz-extension page
+     / [ afterEach ]
+1707125494910   RemoteAgent     DEBUG   Resetting recommended pref browser.contentblocking.introCount
+1707125494910   RemoteAgent     DEBUG   Resetting recommended pref browser.newtabpage.activity-stream.showSponsoredTopSites
+1707125494910   RemoteAgent     DEBUG   Resetting recommended pref browser.region.network.url
+1707125494910   RemoteAgent     DEBUG   Resetting recommended pref browser.startup.couldRestoreSession.count
+1707125494910   RemoteAgent     DEBUG   Resetting recommended pref browser.tabs.closeWindowWithLastTab
+1707125494911   RemoteAgent     DEBUG   Resetting recommended pref browser.tabs.unloadOnLowMemory
+1707125494911   RemoteAgent     DEBUG   Resetting recommended pref browser.tabs.warnOnClose
+1707125494911   RemoteAgent     DEBUG   Resetting recommended pref browser.toolbars.bookmarks.visibility
+1707125494911   RemoteAgent     DEBUG   Resetting recommended pref browser.topsites.contile.enabled
+1707125494911   RemoteAgent     DEBUG   Resetting recommended pref browser.urlbar.merino.endpointURL
+1707125494914   RemoteAgent     DEBUG   Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1707125494914   RemoteAgent     DEBUG   Resetting recommended pref dom.max_chrome_script_run_time
+1707125494914   RemoteAgent     DEBUG   Resetting recommended pref dom.navigation.locationChangeRateLimit.count
+1707125494914   RemoteAgent     DEBUG   Resetting recommended pref dom.push.connection.enabled
+1707125494915   RemoteAgent     DEBUG   Resetting recommended pref dom.screenorientation.allow-lock
+1707125494915   RemoteAgent     DEBUG   Resetting recommended pref dom.successive_dialog_time_limit
+1707125494915   RemoteAgent     DEBUG   Resetting recommended pref extensions.getAddons.discovery.api_url
+1707125494915   RemoteAgent     DEBUG   Resetting recommended pref extensions.blocklist.detailsURL
+1707125494916   RemoteAgent     DEBUG   Resetting recommended pref extensions.blocklist.itemURL
+1707125494916   RemoteAgent     DEBUG   Resetting recommended pref extensions.hotfix.url
+1707125494916   RemoteAgent     DEBUG   Resetting recommended pref extensions.systemAddon.update.url
+1707125494916   RemoteAgent     DEBUG   Resetting recommended pref extensions.update.background.url
+1707125494917   RemoteAgent     DEBUG   Resetting recommended pref extensions.update.url
+1707125494918   RemoteAgent     DEBUG   Resetting recommended pref extensions.getAddons.get.url
+1707125494918   RemoteAgent     DEBUG   Resetting recommended pref extensions.getAddons.search.browseURL
+1707125494918   RemoteAgent     DEBUG   Resetting recommended pref geo.provider.network.url
+1707125494918   RemoteAgent     DEBUG   Resetting recommended pref identity.fxaccounts.auth.uri
+1707125494918   RemoteAgent     DEBUG   Resetting recommended pref network.http.prompt-temp-redirect
+1707125494918   RemoteAgent     DEBUG   Resetting recommended pref privacy.trackingprotection.enabled
+1707125494918   RemoteAgent     DEBUG   Resetting recommended pref security.remote_settings.intermediates.enabled
+1707125494919   RemoteAgent     DEBUG   Resetting recommended pref startup.homepage_welcome_url.additional
+1707125494919   RemoteAgent     DEBUG   Resetting recommended pref widget.windows.window_occlusion_tracking.enabled
+ ❯ basic.test.js (1)
+ ❯ basic.test.js (1)
+   ✓ extension command on moz-extension page
+     \ [ afterEach ]
+1707125494946   RemoteAgent     TRACE   Unregistered MessageHandler WINDOW_GLOBAL for session 49697301-467c-4b9c-a7b4-72bb2b6df35b
+1707125494946   RemoteAgent     TRACE   MessageHandler WINDOW_GLOBAL for session 49697301-467c-4b9c-a7b4-72bb2b6df35b is being destroyed
+ ✓ basic.test.js (1) 7049ms
+   ✓ extension command on moz-extension page 7047ms
+
+ Test Files  1 passed (1)
+      Tests  1 passed (1)
+   Start at  10:31:24
+   Duration  10.30s (transform 1.28s, setup 2.09s, collect 8ms, tests 7.05s, environment 772ms, prepare 170ms)
